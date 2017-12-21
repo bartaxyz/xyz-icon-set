@@ -1,16 +1,16 @@
 {
 	"name": "xyz.icon.set",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "npm run build && node ./lib/index.js",
+		"start": "npm run build && node ./dist/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "babel src -d lib"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bartaxyz/XYZ-Icon-Set.git"
+		"url": "git+https://github.com/bartaxyz/xyz-icon-set.git"
 	},
 	"keywords": [
 		"xyz",
@@ -20,9 +20,9 @@
 	"author": "Ondřej Bárta (https://ondrejbarta.xyz)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bartaxyz/XYZ-Icon-Set/issues"
+		"url": "https://github.com/bartaxyz/xyz-icon-set/issues"
 	},
-	"homepage": "https://github.com/bartaxyz/XYZ-Icon-Set#readme",
+	"homepage": "https://github.com/bartaxyz/xyz-icon-set#readme",
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
 		"babel-preset-env": "^1.6.1"
