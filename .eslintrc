@@ -1,8 +1,5 @@
 {
     "parser": "babel-eslint",
-    "extends": "airbnb/base",
-    "rules": {
-        // custom rules
-    }
+    "extends": "airbnb/base"
 }
   

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "babel src -d dist",
+    "build": "babel src -d dist --extensions \".ts,.tsx\"",
     "lint": "eslint src tests",
     "lint:fix": "npm run lint -- --fix",
     "test": "mocha tests --compilers js:babel-register",
@@ -30,6 +30,13 @@
   },
   "homepage": "https://github.com/bartaxyz/xyz-icon-set",
   "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.32",
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "@babel/preset-typescript": "^7.0.0-beta.32",
+    "@types/node": "^10.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
@@ -42,6 +49,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "mocha": "^5.1.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2"
   }
 }

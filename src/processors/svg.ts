@@ -1,6 +1,6 @@
-import fs from 'fs';
-import config from './config';
-import BaseProcessor from './BaseProcessor';
+import { writeFileSync } from 'fs';
+import { iconDirectory } from '../config';
+import BaseProcessor, { Icon } from './base';
 
 const primaryColor = '#1d4477'; // '#333333';
 const gradientColorPrimary = '#00adef'; // '#CCCCCC';
@@ -9,7 +9,7 @@ const gradientColorSecondary = '#00adef'; // '#EEEEEE';
 export default class SVGProcessor extends BaseProcessor {
     constructor() {
         super();
-        this.iconDirectory = config.svgIconDirectory;
+        this.iconDirectory = iconDirectory;
         this.iconFileExtension = 'svg';
     }
 
@@ -24,9 +24,7 @@ export default class SVGProcessor extends BaseProcessor {
     }
 
     run() {
-        const names = this.getIconNames();
-        const contents = this.getIconContents();
-        console.log(names, contents);
+        const icons: Icon[] = this.getIcons();
         const styles = `<html><head><title>Test Output</title><meta name="viewport" content="width=device-width, initial-scale=1"></head><style>
         body {
             margin: auto;
@@ -70,47 +68,44 @@ export default class SVGProcessor extends BaseProcessor {
         </style>`;
         let concatenatedContents = '';
 
-        const wrapSVG = (svg, name) => {
+        const wrapSVG = (icon: Icon) => {
             const startTag = '<div class="box"><div class="icon">';
-            const endTag = `${name}</div></div>`;
+            const endTag = `${icon.name}</div></div>`;
 
-            return startTag + svg.replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '') + endTag;
+            return startTag + icon.source.replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '') + endTag;
         };
 
-        for (let i = 0; i < contents.length; ++i) {
-            if (names[i].indexOf('.regular.') === -1) {
-                continue;
-            }
-            concatenatedContents += wrapSVG(contents[i], names[i]);
+        for (let i = 0; i < icons.length; ++i) {
+            concatenatedContents += wrapSVG(icons[i]);
         }
 
         concatenatedContents += `<hr />`;
 
-        for (let i = 0; i < contents.length; ++i) {
-            if (names[i].indexOf('.thin.') === -1) {
+        for (let i = 0; i < icons.length; ++i) {
+            if (icons[i].name.indexOf('.thin.') === -1) {
                 continue;
             }
-            concatenatedContents += wrapSVG(contents[i]);
+            concatenatedContents += wrapSVG(icons[i]);
         }
 
         concatenatedContents += `<hr />`;
 
-        for (let i = 0; i < contents.length; ++i) {
-            if (names[i].indexOf('.filled.') === -1) {
+        for (let i = 0; i < icons.length; ++i) {
+            if (icons[i].name.indexOf('.filled.') === -1) {
                 continue;
             }
-            concatenatedContents += wrapSVG(contents[i]);
+            concatenatedContents += wrapSVG(icons[i]);
         }
 
         concatenatedContents += `<hr />`;
 
-        for (let i = 0; i < contents.length; ++i) {
-            if (names[i].indexOf('.real.') === -1) {
+        for (let i = 0; i < icons.length; ++i) {
+            if (icons[i].name.indexOf('.real.') === -1) {
                 continue;
             }
-            concatenatedContents += wrapSVG(contents[i]);
+            concatenatedContents += wrapSVG(icons[i]);
         }
 
-        fs.writeFileSync('./dist/test_output.html', styles + concatenatedContents);
+        writeFileSync('./dist/test_output.html', styles + concatenatedContents);
     }
 };
