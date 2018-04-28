@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><rect id="object.filled.cup" x="0" y="0" width="24" height="24" style="fill:none;"/><path d="M17,9c0,0 0.5,0 1,0c0.265,0 0.52,0.105 0.707,0.293c0.188,0.187 0.293,0.442 0.293,0.707c0,0.573 0,1.313 0,2c0,1.105 -0.895,2 -2,2c0,0 0,0 0,0c0,0 0,0.426 0,1c0,0.796 -0.316,1.559 -0.879,2.121c-0.562,0.563 -1.325,0.879 -2.121,0.879c-1.554,0 -3.446,0 -5,0c-1.657,0 -3,-1.343 -3,-3c0,-2.618 0,-6.262 0,-8c0,-0.552 0.448,-1 1,-1c2.092,0 6.908,0 9,0c0.552,0 1,0.448 1,1c0,0.873 0,2 0,2Zm1,1l-1,0l0,3c0,0 0,0 0,0c0.552,0 1,-0.448 1,-1c0,-0.873 0,-2 0,-2Z" style="fill:#333;"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-2493,-1080)">
+        <g id="object.filled.cup" transform="matrix(1,0,0,1,925,310)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,-925,-261)">
+                <path d="M2510,1040C2510,1040 2510.5,1040 2511,1040C2511.26,1040 2511.52,1040.11 2511.71,1040.29C2511.89,1040.48 2512,1040.74 2512,1041C2512,1041.57 2512,1042.31 2512,1043C2512,1044.11 2511.11,1045 2510,1045C2510,1045 2510,1045 2510,1045C2510,1045 2510,1045.43 2510,1046C2510,1046.8 2509.68,1047.56 2509.12,1048.12C2508.56,1048.68 2507.8,1049 2507,1049C2505.45,1049 2503.55,1049 2502,1049C2500.34,1049 2499,1047.66 2499,1046C2499,1043.38 2499,1039.74 2499,1038C2499,1037.45 2499.45,1037 2500,1037C2502.09,1037 2506.91,1037 2509,1037C2509.55,1037 2510,1037.45 2510,1038C2510,1038.87 2510,1040 2510,1040ZM2511,1041L2510,1041L2510,1044C2510,1044 2510,1044 2510,1044C2510.55,1044 2511,1043.55 2511,1043C2511,1042.13 2511,1041 2511,1041Z" style="fill:rgb(51,51,51);"/>
+            </g>
+        </g>
+    </g>
+</svg>

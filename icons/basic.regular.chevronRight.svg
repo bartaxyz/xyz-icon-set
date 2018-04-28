@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><rect id="basic.regular.chevronRight" x="0" y="0" width="24" height="24" style="fill:none;"/><path d="M17.707,11.293c0.188,0.187 0.293,0.442 0.293,0.707c0,0.265 -0.105,0.52 -0.293,0.707c-1.598,1.598 -5.473,5.473 -7.071,7.071c-0.187,0.188 -0.442,0.293 -0.707,0.293c-0.265,0 -0.52,-0.105 -0.707,-0.293c-0.391,-0.39 -0.391,-1.024 0,-1.414c1.791,-1.791 6.364,-6.364 6.364,-6.364c0,0 -4.573,-4.573 -6.364,-6.364c-0.391,-0.39 -0.391,-1.024 0,-1.414c0.187,-0.188 0.442,-0.293 0.707,-0.293c0.265,0 0.52,0.105 0.707,0.293c1.598,1.598 5.473,5.473 7.071,7.071Z" style="fill:#333;fill-rule:nonzero;"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1343,-272)">
+        <g id="basic.regular.chevronRight" transform="matrix(0.800768,0,0,0.984948,1343,272)">
+            <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
+            <g transform="matrix(0.80276,-0.652648,0.80276,0.652648,-147.35,-105.293)">
+                <path d="M16.1,195C16.1,195.292 15.984,195.572 15.778,195.778C15.572,195.984 15.292,196.1 15,196.1C12.514,196.1 6.486,196.1 4,196.1C3.708,196.1 3.429,195.984 3.222,195.778C3.016,195.572 2.9,195.292 2.9,195C2.9,194.393 3.393,193.9 4,193.9C6.786,193.9 13.9,193.9 13.9,193.9C13.9,193.9 13.9,186.786 13.9,184C13.9,183.393 14.393,182.9 15,182.9C15.292,182.9 15.572,183.016 15.778,183.222C15.984,183.429 16.1,183.708 16.1,184C16.1,186.486 16.1,192.514 16.1,195Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

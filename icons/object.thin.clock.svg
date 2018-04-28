@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><rect id="object.thin.clock" x="0" y="0" width="24" height="24" style="fill:none;"/><path d="M12.503,6l0,6l-3.003,3" style="fill:none;stroke:#333;stroke-width:1px;"/><path d="M12,2c5.519,0 10,4.481 10,10c0,5.519 -4.481,10 -10,10c-5.519,0 -10,-4.481 -10,-10c0,-5.519 4.481,-10 10,-10Zm0,1c4.967,0 9,4.033 9,9c0,4.967 -4.033,9 -9,9c-4.967,0 -9,-4.033 -9,-9c0,-4.967 4.033,-9 9,-9Z" style="fill:#333;"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-2255,-1032)">
+        <g id="object.thin.clock" transform="matrix(1,0,0,1,687,262)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,-52.5,2)">
+                <path d="M1633,774L1633,780L1630,783" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,666.994,546)">
+                <path d="M913.006,226C918.525,226 923.006,230.481 923.006,236C923.006,241.519 918.525,246 913.006,246C907.487,246 903.006,241.519 903.006,236C903.006,230.481 907.487,226 913.006,226ZM913.006,227C917.973,227 922.006,231.033 922.006,236C922.006,240.967 917.973,245 913.006,245C908.039,245 904.006,240.967 904.006,236C904.006,231.033 908.039,227 913.006,227Z" style="fill:rgb(51,51,51);"/>
+            </g>
+        </g>
+    </g>
+</svg>

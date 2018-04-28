@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><rect id="object.real.creditCardBack" x="0" y="0" width="24" height="24" style="fill:none;"/><path d="M21,19c0.552,0 1,-0.448 1,-1c0,-2.577 0,-9.423 0,-12c0,-0.552 -0.448,-1 -1,-1c-3.414,0 -14.586,0 -18,0c-0.552,0 -1,0.448 -1,1c0,2.577 0,9.423 0,12c0,0.552 0.448,1 1,1c3.414,0 14.586,0 18,0Z" style="fill:url(#_Linear1);"/><clipPath id="_clip2"><path d="M21,19c0.552,0 1,-0.448 1,-1c0,-2.577 0,-9.423 0,-12c0,-0.552 -0.448,-1 -1,-1c-3.414,0 -14.586,0 -18,0c-0.552,0 -1,0.448 -1,1c0,2.577 0,9.423 0,12c0,0.552 0.448,1 1,1c3.414,0 14.586,0 18,0Z"/></clipPath><g clip-path="url(#_clip2)"><path d="M6.494,16c0.276,0 0.5,0.224 0.5,0.5c0,0.276 -0.224,0.5 -0.5,0.5c-0.553,0 -1.44,0 -1.994,0c-0.276,0 -0.5,-0.224 -0.5,-0.5c0,-0.276 0.224,-0.5 0.5,-0.5c0.554,0 1.441,0 1.994,0Zm4,-2c0.133,0 0.26,0.053 0.354,0.146c0.093,0.094 0.146,0.221 0.146,0.354c0,0.133 -0.053,0.26 -0.146,0.354c-0.094,0.093 -0.221,0.146 -0.354,0.146c-1.288,0 -4.706,0 -5.994,0c-0.133,0 -0.26,-0.053 -0.354,-0.146c-0.093,-0.094 -0.146,-0.221 -0.146,-0.354c0,-0.133 0.053,-0.26 0.146,-0.354c0.094,-0.093 0.221,-0.146 0.354,-0.146c1.288,0 4.706,0 5.994,0Zm11.506,-6l0,4l-20,0l0,-4l20,0Z" style="fill:#333;"/></g><defs><linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-20,20,-20,-20,22,2)"><stop offset="0" style="stop-color:#fff;stop-opacity:1"/><stop offset="1" style="stop-color:#666;stop-opacity:1"/></linearGradient></defs></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1487,-1128)">
+        <g id="object.real.creditCardBack" transform="matrix(0.800768,0,0,0.984948,1487,1128)">
+            <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
+            <g transform="matrix(1.31453,0,0,1.09338,-63.2288,-945.072)">
+                <path d="M68.05,882C68.575,882 69,881.584 69,881.071C69,878.678 69,872.322 69,869.929C69,869.416 68.575,869 68.05,869C64.807,869 54.193,869 50.95,869C50.425,869 50,869.416 50,869.929C50,872.322 50,878.678 50,881.071C50,881.584 50.425,882 50.95,882C54.193,882 64.807,882 68.05,882Z" style="fill:url(#_Linear1);"/>
+                <clipPath id="_clip2">
+                    <path d="M68.05,882C68.575,882 69,881.584 69,881.071C69,878.678 69,872.322 69,869.929C69,869.416 68.575,869 68.05,869C64.807,869 54.193,869 50.95,869C50.425,869 50,869.416 50,869.929C50,872.322 50,878.678 50,881.071C50,881.584 50.425,882 50.95,882C54.193,882 64.807,882 68.05,882Z"/>
+                </clipPath>
+                <g clip-path="url(#_clip2)">
+                    <g transform="matrix(0.95,0,0,0.928571,-762.256,62.0714)">
+                        <path d="M859.5,880C859.776,880 860,880.224 860,880.5C860,880.776 859.776,881 859.5,881C858.946,881 858.059,881 857.506,881C857.23,881 857.006,880.776 857.006,880.5C857.006,880.224 857.23,880 857.506,880C858.059,880 858.946,880 859.5,880ZM863.5,878C863.633,878 863.76,878.053 863.854,878.146C863.947,878.24 864,878.367 864,878.5C864,878.633 863.947,878.76 863.854,878.854C863.76,878.947 863.633,879 863.5,879C862.212,879 858.794,879 857.506,879C857.373,879 857.246,878.947 857.152,878.854C857.059,878.76 857.006,878.633 857.006,878.5C857.006,878.367 857.059,878.24 857.152,878.146C857.246,878.053 857.373,878 857.506,878C858.794,878 862.212,878 863.5,878ZM875.006,872L875.006,876L855.006,876L855.006,872L875.006,872Z" style="fill:rgb(51,51,51);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-19,18.5714,-19,-18.5714,69,866.214)"><stop offset="0" style="stop-color:white;stop-opacity:1"/><stop offset="1" style="stop-color:rgb(102,102,102);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

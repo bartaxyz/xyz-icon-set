@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><rect id="basic.regular.doubleChevronRight" x="0" y="0" width="24" height="24" style="fill:none;"/><clipPath id="_clip1"><rect x="0" y="0" width="24" height="24"/></clipPath><g clip-path="url(#_clip1)"><path d="M18.707,11.764c0.188,0.188 0.293,0.442 0.293,0.707c0,0.265 -0.105,0.52 -0.293,0.707c-1.598,1.598 -5.473,5.473 -7.071,7.071c-0.188,0.188 -0.442,0.293 -0.707,0.293c-0.265,0 -0.52,-0.105 -0.707,-0.293c-0.391,-0.39 -0.391,-1.023 0,-1.414c1.791,-1.791 6.364,-6.364 6.364,-6.364c0,0 -4.573,-4.573 -6.364,-6.364c-0.391,-0.39 -0.391,-1.024 0,-1.414c0.187,-0.188 0.442,-0.293 0.707,-0.293c0.265,0 0.519,0.105 0.707,0.293c1.598,1.598 5.473,5.473 7.071,7.071Z" style="fill:#333;fill-rule:nonzero;"/><path d="M12,11.764c0.188,0.187 0.293,0.442 0.293,0.707c0,0.265 -0.105,0.52 -0.293,0.707c-1.359,1.359 -4.29,4.29 -5.303,5.303c-0.196,0.196 -0.512,0.196 -0.707,0c-0.001,0 -0.001,0 -0.001,0c-0.094,-0.094 -0.146,-0.221 -0.146,-0.353c0,-0.132 0.052,-0.259 0.146,-0.353c1.237,-1.237 5.304,-5.304 5.304,-5.304c0,0 -4.067,-4.067 -5.304,-5.304c-0.094,-0.094 -0.146,-0.22 -0.146,-0.353c0,-0.132 0.052,-0.259 0.146,-0.353c0,0 0,0 0.001,0c0.195,-0.196 0.511,-0.196 0.707,0c1.013,1.013 3.944,3.944 5.303,5.303Z" style="fill:#333;fill-rule:nonzero;"/><rect x="-17" y="-94" width="387" height="200" style="fill:none;stroke:#000;stroke-width:1px;"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1343,-368)">
+        <g id="basic.regular.doubleChevronRight" transform="matrix(0.800768,0,0,0.984948,1343,368)">
+            <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="29.971" height="24.367"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.80276,-0.652648,0.80276,0.652648,-146.101,-104.815)">
+                    <path d="M16.1,195C16.1,195.292 15.984,195.572 15.778,195.778C15.571,195.984 15.292,196.1 15,196.1C12.514,196.1 6.486,196.1 4,196.1C3.708,196.1 3.428,195.984 3.222,195.778C3.016,195.572 2.9,195.292 2.9,195C2.9,194.392 3.392,193.9 4,193.9C6.786,193.9 13.9,193.9 13.9,193.9C13.9,193.9 13.9,186.786 13.9,184C13.9,183.392 14.392,182.9 15,182.9C15.292,182.9 15.571,183.016 15.778,183.222C15.984,183.428 16.1,183.708 16.1,184C16.1,186.486 16.1,192.514 16.1,195Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(0.642208,-0.522119,0.642208,0.522119,-119.878,-81.3197)">
+                    <path d="M15.688,194.313C15.688,194.677 15.543,195.027 15.285,195.285C15.027,195.543 14.677,195.688 14.313,195.688C11.67,195.688 5.971,195.688 4,195.688C3.62,195.688 3.313,195.38 3.313,195C3.313,195 3.313,194.999 3.313,194.999C3.313,194.817 3.385,194.642 3.513,194.513C3.642,194.385 3.817,194.313 3.999,194.313C6.404,194.313 14.313,194.313 14.313,194.313C14.313,194.313 14.313,186.404 14.313,183.999C14.313,183.817 14.385,183.642 14.513,183.513C14.642,183.385 14.817,183.313 14.999,183.313C14.999,183.313 15,183.313 15,183.313C15.38,183.313 15.688,183.62 15.688,184C15.688,185.971 15.688,191.67 15.688,194.313Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1.2488,0,0,1.01528,0,-276.157)">
+                    <rect x="-17" y="178" width="387" height="200" style="fill:none;stroke:black;stroke-width:1px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

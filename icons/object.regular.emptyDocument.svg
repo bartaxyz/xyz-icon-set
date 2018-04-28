@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><rect id="object.regular.emptyDocument" x="0" y="0" width="24" height="24" style="fill:none;"/><path d="M4,3c0,-0.265 0.105,-0.52 0.293,-0.707c0.187,-0.188 0.442,-0.293 0.707,-0.293c2.393,0 8.371,0 9.997,0c0.265,0 0.52,0.105 0.707,0.293c0.827,0.827 3.173,3.173 4,4c0.188,0.187 0.293,0.442 0.293,0.707c0,2.033 0,10.98 0,14c0,0.265 -0.105,0.52 -0.293,0.707c-0.187,0.188 -0.442,0.293 -0.707,0.293c-2.872,0 -11.125,0 -13.997,0c-0.265,0 -0.52,-0.105 -0.707,-0.293c-0.188,-0.187 -0.293,-0.442 -0.293,-0.707c0,-3.414 0,-14.586 0,-18Zm9.994,1l-7.994,0l0,16l11.994,0l0,-12c0,0 -1.815,0 -3,0c-0.552,0 -1,-0.448 -1,-1c0,-1.185 0,-3 0,-3Zm1.006,0.42l0,2.58l2.58,0l-2.58,-2.58Z" style="fill:#333;"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1727,-984)">
+        <g id="object.regular.emptyDocument" transform="matrix(0.800768,0,0,0.984948,1727,984)">
+            <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
+            <g transform="matrix(1.2488,0,0,1.01528,-1305,-779.737)">
+                <path d="M1049,771C1049,770.735 1049.11,770.48 1049.3,770.293C1049.48,770.105 1049.74,770 1050,770C1052.4,770 1058.37,770 1060,770C1060.27,770 1060.52,770.105 1060.71,770.293C1061.53,771.12 1063.88,773.466 1064.71,774.293C1064.89,774.48 1065,774.735 1065,775C1065,777.033 1065,785.98 1065,789C1065,789.265 1064.89,789.52 1064.71,789.707C1064.52,789.895 1064.27,790 1064,790C1061.13,790 1052.88,790 1050,790C1049.74,790 1049.48,789.895 1049.3,789.707C1049.11,789.52 1049,789.265 1049,789C1049,785.586 1049,774.414 1049,771ZM1059,772L1051,772L1051,788L1063,788L1063,776C1063,776 1061.18,776 1060,776C1059.44,776 1059,775.552 1059,775C1059,773.815 1059,772 1059,772ZM1060,772.42L1060,775L1062.58,775L1060,772.42Z" style="fill:rgb(51,51,51);"/>
+            </g>
+        </g>
+    </g>
+</svg>
