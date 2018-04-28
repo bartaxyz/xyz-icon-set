@@ -2,9 +2,9 @@ import fs from 'fs';
 import config from './config';
 import BaseProcessor from './BaseProcessor';
 
-const primaryColor = '#33333';
-const gradientColorPrimary = '#CCCCCC';
-const gradientColorSecondary = '#EEEEEE';
+const primaryColor = '#1d4477'; // '#333333';
+const gradientColorPrimary = '#00adef'; // '#CCCCCC';
+const gradientColorSecondary = '#00adef'; // '#EEEEEE';
 
 export default class SVGProcessor extends BaseProcessor {
     constructor() {
@@ -26,36 +26,91 @@ export default class SVGProcessor extends BaseProcessor {
     run() {
         const names = this.getIconNames();
         const contents = this.getIconContents();
+        console.log(names, contents);
+        const styles = `<html><head><title>Test Output</title><meta name="viewport" content="width=device-width, initial-scale=1"></head><style>
+        body {
+            margin: auto;
+            padding: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            background: whitesmoke;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background: ${primaryColor};
+            margin: 16px 0;
+        }
+        .box {
+            width: 33%;
+            padding: 16px;
+        }
+        .icon {
+            display: block;
+            background: white;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            padding: 16px;
+            font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .icon svg {
+            margin-right: 16px;
+            vertical-align: -6px;
+        }
+        .icon * {
+            vertical-align: middle;
+        }
+        </style>`;
         let concatenatedContents = '';
+
+        const wrapSVG = (svg, name) => {
+            const startTag = '<div class="box"><div class="icon">';
+            const endTag = `${name}</div></div>`;
+
+            return startTag + svg.replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '') + endTag;
+        };
 
         for (let i = 0; i < contents.length; ++i) {
             if (names[i].indexOf('.regular.') === -1) {
                 continue;
             }
-
-            concatenatedContents += contents[i].replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '');
+            concatenatedContents += wrapSVG(contents[i], names[i]);
         }
 
-        concatenatedContents += `<hr style="border:none;height:1px;bacground:${primaryColor};margin:16px 0;" />`;
+        concatenatedContents += `<hr />`;
 
         for (let i = 0; i < contents.length; ++i) {
             if (names[i].indexOf('.thin.') === -1) {
                 continue;
             }
-
-            concatenatedContents += contents[i].replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '');
+            concatenatedContents += wrapSVG(contents[i]);
         }
 
-        concatenatedContents += `<hr style="border:none;height:1px;bacground:${primaryColor};margin:16px 0;" />`;
+        concatenatedContents += `<hr />`;
+
+        for (let i = 0; i < contents.length; ++i) {
+            if (names[i].indexOf('.filled.') === -1) {
+                continue;
+            }
+            concatenatedContents += wrapSVG(contents[i]);
+        }
+
+        concatenatedContents += `<hr />`;
 
         for (let i = 0; i < contents.length; ++i) {
             if (names[i].indexOf('.real.') === -1) {
                 continue;
             }
-
-            concatenatedContents += contents[i].replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '');
+            concatenatedContents += wrapSVG(contents[i]);
         }
 
-        fs.writeFileSync('./lib/test_output.html', concatenatedContents);
+        fs.writeFileSync('./dist/test_output.html', styles + concatenatedContents);
     }
 };
