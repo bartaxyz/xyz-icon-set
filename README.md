@@ -1,5 +1,6 @@
 # XYZ Icon Set
 
+[![](/icons/logo.bartaxyz.svg)](http://ondrejbarta.xyz)
 
 ![](/icons/basic.regular.arrowDown.svg)
 ![](/icons/basic.regular.arrowLeft.svg)
@@ -22,8 +23,6 @@
 ![](/icons/basic.regular.smallTriangle.svg)
 ![](/icons/basic.regular.square.svg)
 ![](/icons/basic.regular.triangle.svg)
-![](/icons/logo.bartaxyz.svg)
-![](/icons/logo.bartaxyz.thin.svg)
 ![](/icons/object.regular.QRCode.svg)
 ![](/icons/object.regular.bell.svg)
 ![](/icons/object.regular.champaigne.svg)
