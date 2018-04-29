@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-2829,-1032)">
+        <g id="object.thin.tablet" transform="matrix(1,0,0,1,1261,262)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,-1069,-214)">
+                <path d="M2659,1002C2659,1003.11 2658.11,1004 2657,1004C2653.17,1004 2644.83,1004 2641,1004C2639.89,1004 2639,1003.11 2639,1002C2639,998.926 2639,993.074 2639,990C2639,988.895 2639.89,988 2641,988C2644.83,988 2653.17,988 2657,988C2658.11,988 2659,988.895 2659,990C2659,993.074 2659,998.926 2659,1002ZM2658,990C2658,989.448 2657.55,989 2657,989C2653.85,989 2644.15,989 2641,989C2640.45,989 2640,989.448 2640,990C2640,992.577 2640,999.423 2640,1002C2640,1002.55 2640.45,1003 2641,1003C2644.15,1003 2653.85,1003 2657,1003C2657.55,1003 2658,1002.55 2658,1002C2658,999.423 2658,992.577 2658,990Z" style="fill:rgb(51,51,51);"/>
+            </g>
+            <g transform="matrix(2.00008,0,0,2,-3904.21,-1223)">
+                <ellipse cx="2745.5" cy="1002.5" rx="0.5" ry="0.5" style="fill:rgb(51,51,51);"/>
+            </g>
+        </g>
+    </g>
+</svg>
