@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-1343,-1032)">
-        <g id="object.thin.window" transform="matrix(0.800768,0,0,0.984948,1343,1032)">
+    <g transform="matrix(1,0,0,1,0,-1032)">
+        <g id="object.thin.window" transform="matrix(0.800768,0,0,0.984948,0,1032)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-885.407,-828.47)">
                 <path d="M730.006,818C730.271,818 730.525,818.105 730.713,818.293C730.901,818.48 731.006,818.735 731.006,819C731.006,822.414 731.006,833.586 731.006,837C731.006,837.265 730.901,837.52 730.713,837.707C730.525,837.895 730.271,838 730.006,838C726.592,838 715.42,838 712.006,838C711.741,838 711.486,837.895 711.299,837.707C711.111,837.52 711.006,837.265 711.006,837C711.006,833.586 711.006,822.414 711.006,819C711.006,818.735 711.111,818.48 711.299,818.293C711.486,818.105 711.741,818 712.006,818C715.42,818 726.592,818 730.006,818ZM730,819L712,819L712,837L730,837L730,819Z" style="fill:rgb(51,51,51);"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1679,-176)">
-        <g id="basic.regular.rectangle" transform="matrix(0.800768,0,0,0.984948,1679,176)">
+    <g transform="matrix(1,0,0,1,-336,-176)">
+        <g id="basic.regular.rectangle" transform="matrix(0.800768,0,0,0.984948,336,176)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1245.06,-178.69)">
                 <path d="M1018,181C1018.55,181 1019,181.448 1019,182C1019,184.577 1019,191.423 1019,194C1019,194.552 1018.55,195 1018,195C1014.59,195 1003.41,195 1000,195C999.448,195 999,194.552 999,194C999,191.423 999,184.577 999,182C999,181.448 999.448,181 1000,181C1003.41,181 1014.59,181 1018,181ZM1017,183L1001,183L1001,193L1017,193L1017,183Z" style="fill:rgb(51,51,51);"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1727,-1128)">
-        <g id="object.real.emptyDocument" transform="matrix(0.800768,0,0,0.984948,1727,1128)">
+    <g transform="matrix(1,0,0,1,-384,-1128)">
+        <g id="object.real.emptyDocument" transform="matrix(0.800768,0,0,0.984948,384,1128)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-419.597,-877.204)">
                 <path d="M356,871L356,870.5C356,870.5 356,881.571 356,885C356,885.265 355.895,885.52 355.707,885.707C355.52,885.895 355.265,886 355,886C352.273,886 344.727,886 342,886C341.735,886 341.48,885.895 341.293,885.707C341.105,885.52 341,885.265 341,885C341,881.586 341,870.414 341,867C341,866.448 341.448,866 342,866C344.533,866 351,866 351,866L356,871Z" style="fill:url(#_Linear1);"/>

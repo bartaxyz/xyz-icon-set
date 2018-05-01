@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-2493,-1128)">
-        <g id="object.real.cup" transform="matrix(1,0,0,1,925,358)">
+    <g transform="matrix(1,0,0,1,-1150,-1128)">
+        <g id="object.real.cup" transform="matrix(1,0,0,1,-418,358)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-925,-261)">
                 <path d="M2509,1040C2509,1040 2510.13,1040 2511,1040C2511.55,1040 2512,1040.45 2512,1041C2512,1041.57 2512,1042.31 2512,1043C2512,1043.53 2511.79,1044.04 2511.41,1044.41C2511.04,1044.79 2510.53,1045 2510,1045C2509.45,1045 2509,1045 2509,1045L2509,1040ZM2511,1041L2509,1041L2509,1044C2509,1044 2509.5,1044 2510,1044C2510.55,1044 2511,1043.55 2511,1043C2511,1042.13 2511,1041 2511,1041Z" style="fill:rgb(51,51,51);"/>

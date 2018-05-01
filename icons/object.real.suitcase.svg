@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1919,-1128)">
-        <g id="object.real.suitcase" transform="matrix(0.800768,0,0,0.984948,1919,1128)">
+    <g transform="matrix(1,0,0,1,-576,-1128)">
+        <g id="object.real.suitcase" transform="matrix(0.800768,0,0,0.984948,576,1128)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2396.45,-1145.24)">
                 <path d="M1933,1135L1933,1133L1929,1133L1929,1135L1928,1135C1928,1135 1928,1133.87 1928,1133C1928,1132.45 1928.45,1132 1929,1132C1930.11,1132 1931.89,1132 1933,1132C1933.55,1132 1934,1132.45 1934,1133C1934,1133.87 1934,1135 1934,1135L1933,1135Z" style="fill:rgb(51,51,51);"/>

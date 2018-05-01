@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-2733,-984)">
-        <g id="object.regular.smartphoneButton" transform="matrix(1,0,0,1,1165,214)">
+    <g transform="matrix(1,0,0,1,-1390,-984)">
+        <g id="object.regular.smartphoneButton" transform="matrix(1,0,0,1,-178,214)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-1069,-214)">
                 <path d="M2655,1004C2655,1004.53 2654.79,1005.04 2654.41,1005.41C2654.04,1005.79 2653.53,1006 2653,1006C2650.78,1006 2647.22,1006 2645,1006C2644.47,1006 2643.96,1005.79 2643.59,1005.41C2643.21,1005.04 2643,1004.53 2643,1004C2643,1000.17 2643,991.832 2643,988C2643,987.47 2643.21,986.961 2643.59,986.586C2643.96,986.211 2644.47,986 2645,986C2647.22,986 2650.78,986 2653,986C2653.53,986 2654.04,986.211 2654.41,986.586C2654.79,986.961 2655,987.47 2655,988C2655,991.832 2655,1000.17 2655,1004ZM2653,988L2645,988L2645,1004L2653,1004L2653,988Z" style="fill:rgb(51,51,51);"/>

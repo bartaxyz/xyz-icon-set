@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-2255,-984)">
-        <g id="object.regular.clock" transform="matrix(1,0,0,1,687,214)">
+    <g transform="matrix(1,0,0,1,-912,-984)">
+        <g id="object.regular.clock" transform="matrix(1,0,0,1,-656,214)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-687,-214)">
                 <path d="M2267,986C2272.52,986 2277,990.481 2277,996C2277,1001.52 2272.52,1006 2267,1006C2261.48,1006 2257,1001.52 2257,996C2257,990.481 2261.48,986 2267,986ZM2267,988C2271.41,988 2275,991.585 2275,996C2275,1000.42 2271.41,1004 2267,1004C2262.59,1004 2259,1000.42 2259,996C2259,991.585 2262.59,988 2267,988ZM2268,996C2268,996.265 2267.89,996.52 2267.71,996.707C2267.08,997.334 2265.59,998.819 2264.7,999.707C2264.31,1000.1 2263.68,1000.1 2263.29,999.707C2262.9,999.316 2262.9,998.683 2263.29,998.293C2264.29,997.293 2266,995.585 2266,995.585C2266,995.585 2266,991.842 2266,990C2266,989.448 2266.45,989 2267,989C2267.26,989 2267.52,989.105 2267.71,989.293C2267.89,989.48 2268,989.735 2268,990C2268,991.646 2268,994.859 2268,996Z" style="fill:rgb(51,51,51);"/>
