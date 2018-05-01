@@ -3,3 +3,8 @@
 node_modules
 .babelrc
 .eslintrc
+.gitattributes
+.gitignore
+tsconfig.json
+*.afdesign
+/src
