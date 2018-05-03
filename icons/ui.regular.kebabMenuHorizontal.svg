@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1776,-558)">
+        <g id="ui.regular.kebabMenuHorizontal" transform="matrix(0.800768,0,0,0.984948,1776,558)">
+            <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
+            <g transform="matrix(1.2488,0,0,1.01528,-2217.87,-566.528)">
+                <path d="M1794,568C1795.1,568 1796,568.896 1796,570C1796,571.104 1795.1,572 1794,572C1792.9,572 1792,571.104 1792,570C1792,568.896 1792.9,568 1794,568ZM1782,568C1783.1,568 1784,568.896 1784,570C1784,571.104 1783.1,572 1782,572C1780.9,572 1780,571.104 1780,570C1780,568.896 1780.9,568 1782,568ZM1788,568C1789.1,568 1790,568.896 1790,570C1790,571.104 1789.1,572 1788,572C1786.9,572 1786,571.104 1786,570C1786,568.896 1786.9,568 1788,568Z" style="fill:rgb(51,51,51);"/>
+            </g>
+        </g>
+    </g>
+</svg>
