@@ -91,5 +91,5 @@
 ![](/icons/ui.regular.warning.svg)
 ![](/icons/ui.regular.fullscreen.svg)
 ![](/icons/ui.regular.history.svg)
-![](/icons/ui.regular.kebabVertical.svg)
-![](/icons/ui.regular.kebabHorizontal.svg)
+![](/icons/ui.regular.kebabMenuVertical.svg)
+![](/icons/ui.regular.kebabMenuHorizontal.svg)
