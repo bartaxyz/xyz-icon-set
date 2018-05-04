@@ -89,3 +89,7 @@
 ![](/icons/ui.regular.translate.svg)
 ![](/icons/ui.regular.turnOnOff.svg)
 ![](/icons/ui.regular.warning.svg)
+![](/icons/ui.regular.fullscreen.svg)
+![](/icons/ui.regular.history.svg)
+![](/icons/ui.regular.kebabVertical.svg)
+![](/icons/ui.regular.kebabHorizontal.svg)
