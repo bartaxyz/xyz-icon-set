@@ -93,3 +93,15 @@
 ![](/icons/ui.regular.history.svg)
 ![](/icons/ui.regular.kebabMenuVertical.svg)
 ![](/icons/ui.regular.kebabMenuHorizontal.svg)
+
+## Icons
+
+### Weather Icons
+
+| Regular | ![](/icons/weather.regular.sun.svg) | ![](/icons/weather.regular.moon.svg) | ![](/icons/weather.regular.snowflake.svg) | ![](/icons/weather.regular.storm.svg) | ![](/icons/weather.regular.cloud.svg) | ![](/icons/weather.regular.cloudRain.svg) | ![](/icons/weather.regular.cloudStorm.svg) | ![](/icons/weather.regular.cloudSnowflake.svg)
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Thin | ![](/icons/weather.thin.sun.svg) | ![](/icons/weather.thin.moon.svg) | ![](/icons/weather.thin.snowflake.svg) | ![](/icons/weather.thin.storm.svg) | ![](/icons/weather.thin.cloud.svg) | ![](/icons/weather.thin.cloudRain.svg) | ![](/icons/weather.thin.cloudStorm.svg) | ![](/icons/weather.thin.cloudSnowflake.svg) |
+
+
+
+
