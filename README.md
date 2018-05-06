@@ -102,6 +102,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Thin | ![](/icons/weather.thin.sun.svg) | ![](/icons/weather.thin.moon.svg) | ![](/icons/weather.thin.snowflake.svg) | ![](/icons/weather.thin.storm.svg) | ![](/icons/weather.thin.cloud.svg) | ![](/icons/weather.thin.cloudRain.svg) | ![](/icons/weather.thin.cloudStorm.svg) | ![](/icons/weather.thin.cloudSnowflake.svg) |
 
+### Social Icons
 
+| Regular | ![](/icons/social.regular.paperPlane.svg) | ![](/icons/social.regular.chatBubbleSquare.svg) | ![](/icons/social.regular.chatBubbleCircle.svg) | ![](/icons/social.regular.emoji.svg) | ![](/icons/social.regular.hashtag.svg) | ![](/icons/social.regular.mention.svg) | ![](/icons/social.regular.reply.svg)
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Thin | ![](/icons/social.thin.paperPlane.svg) | ![](/icons/social.thin.chatBubbleSquare.svg) | ![](/icons/social.thin.chatBubbleCircle.svg) | ![](/icons/social.thin.emoji.svg) | ![](/icons/social.thin.hashtag.svg) | ![](/icons/social.thin.mention.svg) | ![](/icons/social.thin.reply.svg)
 
 
