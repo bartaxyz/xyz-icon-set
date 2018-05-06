@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-48,-558)">
-        <g id="ui.regular.warning" transform="matrix(0.800768,0,0,0.984948,48,558)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-434,-558)">
+        <g id="ui.regular.warning" transform="matrix(0.800768,0,0,0.984948,434.977,558)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1737.08,-566.528)">
                 <path d="M1412.86,576.486C1413.04,576.794 1413.05,577.179 1412.87,577.493C1412.69,577.806 1412.36,578 1412,578C1407.95,578 1398.05,578 1394,578C1393.64,578 1393.31,577.806 1393.13,577.493C1392.95,577.179 1392.96,576.794 1393.14,576.486C1395.19,573.072 1400.14,564.817 1402.14,561.486C1402.32,561.184 1402.65,561 1403,561C1403.35,561 1403.68,561.184 1403.86,561.486C1405.86,564.817 1410.81,573.072 1412.86,576.486ZM1395.77,576L1410.23,576L1403,563.944L1395.77,576ZM1402,574C1402,573.448 1402.45,573 1403,573C1403.55,573 1404,573.448 1404,574C1404,574.552 1403.55,575 1403,575C1402.45,575 1402,574.552 1402,574C1402,574 1402,574 1402,574ZM1402,568C1402,567.735 1402.11,567.48 1402.29,567.293C1402.48,567.105 1402.74,567 1403,567C1403.27,567 1403.52,567.105 1403.71,567.293C1403.89,567.48 1404,567.735 1404,568C1404,568.871 1404,570.129 1404,571C1404,571.265 1403.89,571.52 1403.71,571.707C1403.52,571.895 1403.27,572 1403,572C1402.74,572 1402.48,571.895 1402.29,571.707C1402.11,571.52 1402,571.265 1402,571C1402,570.129 1402,568.871 1402,568Z" style="fill:rgb(51,51,51);"/>

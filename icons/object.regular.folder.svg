@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-432,-984)">
-        <g id="object.regular.folder" transform="matrix(0.800768,0,0,0.984948,432,984)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-818,-984)">
+        <g id="object.regular.folder" transform="matrix(0.800768,0,0,0.984948,818.977,984)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2216.62,-999.038)">
                 <path d="M1777,989C1777,988.735 1777.11,988.48 1777.29,988.293C1777.48,988.105 1777.74,988 1778,988C1780.66,988 1787.85,988 1790,988C1790.38,988 1790.73,988.214 1790.89,988.553C1791.19,989.145 1791.62,990 1791.62,990C1791.62,990 1794.44,990 1796,990C1796.55,990 1797,990.448 1797,991C1797,993.577 1797,1000.42 1797,1003C1797,1003.55 1796.55,1004 1796,1004C1792.59,1004 1781.41,1004 1778,1004C1777.74,1004 1777.48,1003.89 1777.29,1003.71C1777.11,1003.52 1777,1003.26 1777,1003C1777,1000.13 1777,991.873 1777,989ZM1785,992C1784.62,992 1784.28,991.786 1784.11,991.447C1783.81,990.855 1783.38,990 1783.38,990L1779,990L1779,1002L1795,1002L1795,992C1795,992 1787.27,992 1785,992ZM1787,1000.51C1787,1000.64 1786.95,1000.76 1786.86,1000.86C1786.77,1000.95 1786.64,1001 1786.51,1001C1785.23,1001 1781.79,1001 1780.5,1001C1780.22,1001 1780,1000.78 1780,1000.5C1780,1000.22 1780.22,1000 1780.5,1000C1781.79,1000 1785.19,1000 1786.49,1000C1786.77,1000 1787,1000.23 1787,1000.51C1787,1000.51 1787,1000.51 1787,1000.51ZM1790,989L1785.12,989L1785.62,990L1790.5,990L1790,989Z" style="fill:rgb(51,51,51);"/>

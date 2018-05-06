@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-480,-1128)">
-        <g id="object.real.picture" transform="matrix(0.800768,0,0,0.984948,480,1128)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-866,-1128)">
+        <g id="object.real.picture" transform="matrix(0.800768,0,0,0.984948,866.977,1128)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <clipPath id="_clip1">
                 <rect x="0" y="0" width="29.971" height="24.367"/>
@@ -15,8 +15,8 @@
                     <path d="M485,873.813C485,873.364 484.933,873 484.85,873L482.15,873C482.067,873 482,873.364 482,873.813L482,885.187C482,885.636 482.067,886 482.15,886L484.85,886C484.933,886 485,885.636 485,885.187L485,873.813Z" style="fill:url(#_Linear2);"/>
                 </g>
                 <g>
-                    <g transform="matrix(1.2488,-0,-0,1.01528,0,0)">
-                        <use xlink:href="#_Image3" x="0" y="4" width="24px" height="20px"/>
+                    <g transform="matrix(1.2488,-0,-0,1.01528,-1.21953,0)">
+                        <use xlink:href="#_Image3" x="0.977" y="4" width="24px" height="20px"/>
                     </g>
                     <g transform="matrix(6.66027,0,0,0.937184,-3205.26,-810.039)">
                         <path d="M485,874.083C485,873.485 484.916,873 484.813,873L482.188,873C482.084,873 482,873.485 482,874.083L482,884.917C482,885.515 482.084,886 482.188,886L484.813,886C484.916,886 485,885.515 485,884.917L485,874.083Z" style="fill:rgb(51,51,51);fill-opacity:0.501961;"/>
@@ -25,16 +25,16 @@
                         </clipPath>
                         <g clip-path="url(#_clip4)">
                             <g>
-                                <g transform="matrix(0.1875,-0,-0,1.08333,481.25,864.333)">
-                                    <use xlink:href="#_Image5" x="4.138" y="8" width="14.5px" height="12px" transform="matrix(0.966667,0,0,1,0,0)"/>
+                                <g transform="matrix(0.1875,-0,-0,1.08333,481.067,864.333)">
+                                    <use xlink:href="#_Image5" x="5.148" y="8" width="14.5px" height="12px" transform="matrix(0.966667,0,0,1,0,0)"/>
                                 </g>
                                 <g transform="matrix(0.1875,0,0,1.08333,391.344,35.5833)">
                                     <path d="M483,780C483,780 486.015,777.588 487.362,776.51C487.733,776.213 488.262,776.219 488.627,776.523C490.165,777.805 494,781 494,781L494,785L483,785L483,780" style="fill:url(#_Linear6);"/>
                                 </g>
                             </g>
                             <g>
-                                <g transform="matrix(0.1875,-0,-0,1.08333,481.25,864.333)">
-                                    <use xlink:href="#_Image7" x="5" y="9.553" width="15px" height="10.704px" transform="matrix(1,0,0,0.973092,0,0)"/>
+                                <g transform="matrix(0.1875,-0,-0,1.08333,481.067,864.333)">
+                                    <use xlink:href="#_Image7" x="5.977" y="9.553" width="15px" height="10.704px" transform="matrix(1,0,0,0.973092,0,0)"/>
                                 </g>
                                 <g transform="matrix(0.1875,0,0,1.08333,391.25,34.5)">
                                     <path d="M500.5,782.5L500.5,786L488,786C488,786 493.499,781.188 495.379,779.543C495.74,779.228 496.273,779.212 496.651,779.507C497.898,780.476 500.5,782.5 500.5,782.5Z" style="fill:url(#_Linear8);"/>

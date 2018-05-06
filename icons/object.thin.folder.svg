@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-432,-1032)">
-        <g id="object.thin.folder" transform="matrix(0.800768,0,0,0.984948,432,1032)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-818,-1032)">
+        <g id="object.thin.folder" transform="matrix(0.800768,0,0,0.984948,818.977,1032)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2216.62,-1047.77)">
                 <path d="M1797,1051C1797,1051.27 1796.89,1051.52 1796.71,1051.71C1796.52,1051.89 1796.27,1052 1796,1052C1792.59,1052 1781.41,1052 1778,1052C1777.74,1052 1777.48,1051.89 1777.29,1051.71C1777.11,1051.52 1777,1051.27 1777,1051C1777,1048.13 1777,1039.87 1777,1037C1777,1036.74 1777.11,1036.48 1777.29,1036.29C1777.48,1036.11 1777.74,1036 1778,1036C1780.66,1036 1787.85,1036 1790,1036C1790.38,1036 1790.73,1036.21 1790.89,1036.55C1791.19,1037.14 1791.62,1038 1791.62,1038C1791.62,1038 1794.44,1038 1796,1038C1796.27,1038 1796.52,1038.11 1796.71,1038.29C1796.89,1038.48 1797,1038.74 1797,1039C1797,1041.58 1797,1048.42 1797,1051ZM1784,1037L1778,1037L1778,1051L1796,1051L1796,1039C1796,1039 1787.94,1039 1785.62,1039C1785.24,1039 1784.89,1038.79 1784.72,1038.45C1784.43,1037.86 1784,1037 1784,1037ZM1785.5,1049C1785.78,1049 1786,1049.22 1786,1049.5C1786,1049.78 1785.78,1050 1785.5,1050C1784.21,1050 1780.79,1050 1779.5,1050C1779.22,1050 1779,1049.78 1779,1049.5C1779,1049.22 1779.22,1049 1779.5,1049C1780.79,1049 1784.21,1049 1785.5,1049ZM1790,1037L1785.12,1037L1785.62,1038L1790.5,1038L1790,1037L1790,1037L1790,1037Z" style="fill:rgb(51,51,51);"/>
