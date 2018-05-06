@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1250,-606)">
-        <g id="ui.thin.copy" transform="matrix(0.800768,0,0,0.984948,1250.98,606)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1251,-606)">
+        <g id="ui.thin.copy" transform="matrix(0.800768,0,0,0.984948,1251,606)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2756.1,-566.528)">
                 <path d="M2222,567C2222,567 2225.29,567 2227,567C2227.26,567 2227.52,567.105 2227.71,567.293C2227.89,567.48 2228,567.735 2228,568C2228,570.26 2228,575.74 2228,578C2228,578.265 2227.89,578.52 2227.71,578.707C2227.52,578.895 2227.26,579 2227,579C2224.74,579 2219.26,579 2217,579C2216.74,579 2216.48,578.895 2216.29,578.707C2216.11,578.52 2216,578.265 2216,578C2216,576.293 2216,573 2216,573C2216,573 2212.71,573 2211,573C2210.74,573 2210.48,572.895 2210.29,572.707C2210.11,572.52 2210,572.265 2210,572C2210,569.74 2210,564.26 2210,562C2210,561.735 2210.11,561.48 2210.29,561.293C2210.48,561.105 2210.74,561 2211,561C2213.26,561 2218.74,561 2221,561C2221.26,561 2221.52,561.105 2221.71,561.293C2221.89,561.48 2222,561.735 2222,562C2222,563.707 2222,567 2222,567ZM2227,568L2217,568L2217,578L2227,578L2227,568ZM2221,567L2221,562L2211,562L2211,572L2216,572C2216,572 2216,569.459 2216,568C2216,567.448 2216.45,567 2217,567C2218.46,567 2221,567 2221,567Z" style="fill:rgb(51,51,51);"/>
