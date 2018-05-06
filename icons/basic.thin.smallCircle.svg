@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-239,-225)">
-        <g id="basic.thin.smallCircle" transform="matrix(0.800768,0,0,0.984948,238.997,225)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-625,-225)">
+        <g id="basic.thin.smallCircle" transform="matrix(0.800768,0,0,0.984948,625.974,225)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1185.12,-227.423)">
                 <path d="M961.006,229C964.869,229 968.006,232.137 968.006,236C968.006,239.863 964.869,243 961.006,243C957.142,243 954.006,239.863 954.006,236C954.006,232.137 957.142,229 961.006,229ZM961.006,230C964.317,230 967.006,232.689 967.006,236C967.006,239.311 964.317,242 961.006,242C957.694,242 955.006,239.311 955.006,236C955.006,232.689 957.694,230 961.006,230Z" style="fill:rgb(51,51,51);"/>

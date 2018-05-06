@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-144,-224)">
-        <g id="basic.thin.arrowDown" transform="matrix(0.800768,0,0,0.984948,144,224)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-530,-224)">
+        <g id="basic.thin.arrowDown" transform="matrix(0.800768,0,0,0.984948,530.977,224)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(-7.6467e-17,1.01528,-1.2488,-6.21681e-17,310.915,-1363.52)">
                 <path d="M1354.59,229.037C1354.68,228.945 1354.8,228.894 1354.93,228.895C1355.06,228.895 1355.18,228.946 1355.27,229.038C1356.46,230.227 1360.38,234.169 1362,235.793C1362.39,236.184 1362.39,236.817 1362,237.207C1360.38,238.815 1356.48,242.705 1355.28,243.896C1355.09,244.091 1354.77,244.091 1354.58,243.895C1354.48,243.801 1354.43,243.674 1354.43,243.541C1354.43,243.408 1354.48,243.281 1354.58,243.188C1355.94,241.828 1360.79,237 1360.79,237C1360.79,237 1348.18,237 1345.5,237C1345.37,237 1345.24,236.947 1345.15,236.854C1345.05,236.76 1345,236.633 1345,236.501C1345,236.501 1345,236.5 1345,236.5C1345,236.367 1345.05,236.24 1345.15,236.146C1345.24,236.053 1345.37,236 1345.5,236C1348.19,236 1360.8,236 1360.8,236C1360.8,236 1355.96,231.143 1354.58,229.761C1354.38,229.561 1354.38,229.237 1354.59,229.037C1354.59,229.037 1354.59,229.037 1354.59,229.037Z" style="fill:rgb(51,51,51);"/>

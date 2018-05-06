@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-96,-272)">
-        <g id="basic.regular.chevronUp" transform="matrix(0.800768,0,0,0.984948,96,272)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-482,-272)">
+        <g id="basic.regular.chevronUp" transform="matrix(0.800768,0,0,0.984948,482.977,272)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(0.80276,-0.652648,-0.80276,-0.652648,159.482,144.163)">
                 <path d="M16.1,184C16.1,183.708 15.984,183.428 15.778,183.222C15.572,183.016 15.292,182.9 15,182.9C14.392,182.9 13.9,183.392 13.9,184C13.9,186.786 13.9,193.9 13.9,193.9C13.9,193.9 6.786,193.9 4,193.9C3.392,193.9 2.9,194.392 2.9,195C2.9,195.292 3.016,195.572 3.222,195.778C3.428,195.984 3.708,196.1 4,196.1C6.486,196.1 12.514,196.1 15,196.1C15.292,196.1 15.572,195.984 15.778,195.778C15.984,195.572 16.1,195.292 16.1,195C16.1,192.514 16.1,186.486 16.1,184Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>

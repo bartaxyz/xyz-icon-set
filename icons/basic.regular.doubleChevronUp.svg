@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-96,-368)">
-        <g id="basic.regular.doubleChevronUp" transform="matrix(0.800768,0,0,0.984948,96,368)">
+<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-482,-368)">
+        <g id="basic.regular.doubleChevronUp" transform="matrix(0.800768,0,0,0.984948,482.977,368)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(0.642208,-0.522119,-0.642208,-0.522119,131.171,121.828)">
                 <path d="M15.687,183.982C15.687,183.612 15.388,183.313 15.018,183.313C15.017,183.313 15.017,183.313 15.016,183.313C14.628,183.313 14.312,183.628 14.312,184.017C14.312,186.443 14.312,194.313 14.312,194.313C14.312,194.313 6.404,194.313 3.999,194.313C3.817,194.313 3.642,194.385 3.513,194.514C3.385,194.642 3.312,194.817 3.312,194.999C3.312,195 3.312,195.001 3.312,195.001C3.312,195.38 3.62,195.688 3.999,195.688C5.969,195.688 11.67,195.688 14.312,195.688C14.677,195.688 15.027,195.543 15.285,195.285C15.543,195.027 15.687,194.677 15.687,194.313C15.687,191.662 15.687,185.937 15.687,183.982Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>
