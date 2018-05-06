@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-386,-984)">
-        <g id="object.regular.window" transform="matrix(0.800768,0,0,0.984948,386.977,984)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-387,-984)">
+        <g id="object.regular.window" transform="matrix(0.800768,0,0,0.984948,387,984)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-885.407,-779.737)">
                 <path d="M730.006,770C730.271,770 730.525,770.105 730.713,770.293C730.901,770.48 731.006,770.735 731.006,771C731.006,774.414 731.006,785.586 731.006,789C731.006,789.265 730.901,789.52 730.713,789.707C730.525,789.895 730.271,790 730.006,790C726.592,790 715.42,790 712.006,790C711.741,790 711.486,789.895 711.299,789.707C711.111,789.52 711.006,789.265 711.006,789C711.006,785.586 711.006,774.414 711.006,771C711.006,770.735 711.111,770.48 711.299,770.293C711.486,770.105 711.741,770 712.006,770C715.42,770 726.592,770 730.006,770ZM729.006,772L713.006,772L713.006,788L729.006,788L729.006,772Z" style="fill:rgb(51,51,51);"/>

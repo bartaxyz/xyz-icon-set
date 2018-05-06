@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1920,-984)">
-        <g id="object.regular.computer" transform="matrix(1,0,0,1,352.977,214)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1921,-984)">
+        <g id="object.regular.computer" transform="matrix(1,0,0,1,353,214)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-1261,-214)">
                 <path d="M2850,1002C2850.26,1002 2850.52,1002.11 2850.71,1002.29C2850.89,1002.48 2851,1002.74 2851,1003C2851,1003.26 2850.89,1003.52 2850.71,1003.71C2850.52,1003.89 2850.26,1004 2850,1004C2846.59,1004 2835.41,1004 2832,1004C2831.74,1004 2831.48,1003.89 2831.29,1003.71C2831.11,1003.52 2831,1003.26 2831,1003C2831,1002.74 2831.11,1002.48 2831.29,1002.29C2831.48,1002.11 2831.74,1002 2832,1002C2835.41,1002 2846.59,1002 2850,1002ZM2850,1000C2850,1000.55 2849.55,1001 2849,1001C2845.85,1001 2836.15,1001 2833,1001C2832.45,1001 2832,1000.55 2832,1000C2832,997.578 2832,991.421 2832,989C2832,988.448 2832.45,988 2833,988C2836.15,988 2845.85,988 2849,988C2849.55,988 2850,988.448 2850,989C2850,991.421 2850,997.578 2850,1000ZM2848,990L2834,990L2834,999L2848,999L2848,990Z" style="fill:rgb(51,51,51);"/>

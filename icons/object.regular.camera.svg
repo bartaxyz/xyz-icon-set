@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-2064,-984)">
-        <g id="object.regular.camera" transform="matrix(1,0,0,1,496.977,214)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-2065,-984)">
+        <g id="object.regular.camera" transform="matrix(1,0,0,1,497,214)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-110,-214)">
                 <path d="M1697.41,990C1697.41,990 1698.27,990 1699,990C1699.55,990 1700,990.448 1700,991C1700,993.577 1700,1000.42 1700,1003C1700,1003.55 1699.55,1004 1699,1004C1695.59,1004 1684.41,1004 1681,1004C1680.45,1004 1680,1003.55 1680,1003C1680,1000.42 1680,993.577 1680,991C1680,990.448 1680.45,990 1681,990C1683.27,990 1688.6,990 1688.6,990C1688.6,990 1689.74,988.851 1690.29,988.295C1690.48,988.106 1690.73,988 1691,988C1691.91,988 1694.09,988 1695,988C1695.27,988 1695.52,988.105 1695.71,988.293C1696.26,988.848 1697.41,990 1697.41,990ZM1698,992L1682,992L1682,1002L1698,1002L1698,992ZM1690,993C1692.21,993 1694,994.792 1694,997C1694,999.208 1692.21,1001 1690,1001C1687.79,1001 1686,999.208 1686,997C1686,994.792 1687.79,993 1690,993ZM1690,995C1691.1,995 1692,995.896 1692,997C1692,998.104 1691.1,999 1690,999C1688.9,999 1688,998.104 1688,997C1688,995.896 1688.9,995 1690,995ZM1685,994C1685,994.552 1684.55,995 1684,995C1683.45,995 1683,994.552 1683,994C1683,993.448 1683.45,993 1684,993C1684.55,993 1685,993.448 1685,994C1685,994 1685,994 1685,994ZM1694.59,990L1691.42,990L1690.42,991L1695.59,991L1694.59,990Z" style="fill:rgb(51,51,51);"/>

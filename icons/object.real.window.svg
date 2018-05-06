@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-386,-1128)">
-        <g id="object.real.window" transform="matrix(0.800768,0,0,0.984948,386.977,1128)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-387,-1128)">
+        <g id="object.real.window" transform="matrix(0.800768,0,0,0.984948,387,1128)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.31453,0,0,1.56197,-63.2288,-1355.32)">
                 <clipPath id="_clip1">
                     <path d="M69,869.65C69,869.291 68.574,869 68.05,869L50.95,869C50.426,869 50,869.291 50,869.65L50,881.35C50,881.709 50.426,882 50.95,882L68.05,882C68.574,882 69,881.709 69,881.35L69,869.65Z"/>
                 </clipPath>
                 <g clip-path="url(#_clip1)">
-                    <g transform="matrix(0.95,-0,-0,0.65,47.1723,867.7)">
-                        <use xlink:href="#_Image2" x="2.184" y="0.812" width="21.654px" height="22.418px" transform="matrix(0.984288,0,0,0.974691,0,0)"/>
+                    <g transform="matrix(0.95,-0,-0,0.65,48.1,867.7)">
+                        <use xlink:href="#_Image2" x="1.192" y="0.812" width="21.654px" height="22.418px" transform="matrix(0.984288,0,0,0.974691,0,0)"/>
                     </g>
                 </g>
             </g>
@@ -21,16 +21,16 @@
                 </clipPath>
                 <g clip-path="url(#_clip3)">
                     <g>
-                        <g transform="matrix(1,-0,-0,1,708.029,865)">
-                            <use xlink:href="#_Image4" x="3.067" y="6" width="16.5px" height="8px" transform="matrix(0.970588,0,0,1,0,0)"/>
+                        <g transform="matrix(1,-0,-0,1,709.006,865)">
+                            <use xlink:href="#_Image4" x="2.061" y="6" width="16.5px" height="8px" transform="matrix(0.970588,0,0,1,0,0)"/>
                         </g>
                         <g transform="matrix(1,0,0,1,229.506,96.5)">
                             <path d="M481,782C481,782 485.629,778.032 487.358,776.55C487.729,776.232 488.274,776.229 488.649,776.541C490.202,777.835 494,781 494,781L494,785L481,785" style="fill:url(#_Linear5);"/>
                         </g>
                     </g>
                     <g>
-                        <g transform="matrix(1,-0,-0,1,708.029,865)">
-                            <use xlink:href="#_Image6" x="5.977" y="6" width="17px" height="8px"/>
+                        <g transform="matrix(1,-0,-0,1,709.006,865)">
+                            <use xlink:href="#_Image6" x="5" y="6" width="17px" height="8px"/>
                         </g>
                         <g transform="matrix(1,0,0,1,229.006,95.5)">
                             <path d="M501.5,783.5L500.5,786L488,786C488,786 493.469,781.215 495.363,779.557C495.731,779.236 496.277,779.227 496.655,779.536C498.113,780.729 501.5,783.5 501.5,783.5Z" style="fill:url(#_Linear7);"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-914,-1080)">
-        <g id="object.filled.shoppingBag" transform="matrix(0.800768,0,0,0.984948,914.977,1080)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-915,-1080)">
+        <g id="object.filled.shoppingBag" transform="matrix(0.800768,0,0,0.984948,915,1080)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2336.51,-1096.5)">
                 <path d="M1880,1087C1880,1087 1880,1085.87 1880,1085C1880,1084.45 1880.44,1084 1881,1084C1882.11,1084 1883.89,1084 1885,1084C1885.55,1084 1886,1084.45 1886,1085C1886,1085.87 1886,1087 1886,1087C1886,1087 1887.81,1087 1889,1087C1889.55,1087 1890,1087.45 1890,1088C1890,1090.21 1890,1095.59 1890,1099C1890,1100.66 1888.65,1102 1887,1102C1884.63,1102 1881.36,1102 1879,1102C1878.2,1102 1877.44,1101.68 1876.88,1101.12C1876.31,1100.56 1876,1099.8 1876,1099C1876,1095.59 1876,1090.21 1876,1088C1876,1087.45 1876.45,1087 1877,1087C1878.18,1087 1880,1087 1880,1087ZM1886,1089.5C1886,1089.37 1885.95,1089.24 1885.85,1089.15C1885.76,1089.05 1885.63,1089 1885.5,1089C1884.37,1089 1881.63,1089 1880.5,1089C1880.37,1089 1880.24,1089.05 1880.15,1089.15C1880.05,1089.24 1880,1089.37 1880,1089.5C1880,1089.63 1880.05,1089.76 1880.15,1089.85C1880.24,1089.95 1880.37,1090 1880.5,1090C1881.63,1090 1884.37,1090 1885.5,1090C1885.63,1090 1885.76,1089.95 1885.85,1089.85C1885.95,1089.76 1886,1089.63 1886,1089.5C1886,1089.5 1886,1089.5 1886,1089.5ZM1881,1085L1881,1087L1885,1087L1885,1085L1881,1085Z" style="fill:rgb(51,51,51);"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1584,-1032)">
-        <g id="object.thin.map" transform="matrix(1,0,0,1,16.9766,262)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1585,-1032)">
+        <g id="object.thin.map" transform="matrix(1,0,0,1,17,262)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-973,-262)">
                 <path d="M2562.42,1038.73C2562.77,1038.89 2563,1039.25 2563,1039.64C2563,1041.6 2563,1047.57 2563,1050.44C2563,1050.78 2562.83,1051.1 2562.54,1051.28C2562.25,1051.46 2561.89,1051.49 2561.58,1051.35C2559.67,1050.46 2556.5,1049 2556.5,1049C2556.5,1049 2552.3,1051.1 2550.93,1051.79C2550.66,1051.92 2550.34,1051.93 2550.06,1051.8C2548.93,1051.27 2545.87,1049.86 2544.58,1049.27C2544.23,1049.11 2544,1048.75 2544,1048.36C2544,1046.4 2544,1040.43 2544,1037.56C2544,1037.22 2544.17,1036.9 2544.46,1036.72C2544.75,1036.54 2545.11,1036.51 2545.42,1036.65C2547.33,1037.54 2550.5,1039 2550.5,1039C2550.5,1039 2554.7,1036.9 2556.07,1036.21C2556.34,1036.08 2556.66,1036.07 2556.94,1036.2C2558.08,1036.73 2561.13,1038.14 2562.42,1038.73ZM2550,1039.87L2545,1037.56L2545,1048.36L2550,1050.67L2550,1039.87ZM2551,1039.87L2551,1050.63L2556,1048.13L2556,1037.37L2551,1039.87ZM2557,1037.33L2557,1048.13L2562,1050.44L2562,1039.64L2557,1037.33Z" style="fill:rgb(51,51,51);"/>

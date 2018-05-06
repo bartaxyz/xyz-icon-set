@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1010,-1128)">
-        <g id="object.real.lock" transform="matrix(0.800768,0,0,0.984948,1010.98,1128)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-1011,-1128)">
+        <g id="object.real.lock" transform="matrix(0.800768,0,0,0.984948,1011,1128)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2456.39,-999.038)">
                 <path d="M1983,994L1975,994C1975,994 1975,992.5 1975,991C1975,989.343 1976.34,988 1978,988C1978.65,988 1979.35,988 1980,988C1981.66,988 1983,989.343 1983,991C1983,992.5 1983,994 1983,994ZM1982,991C1982,989.895 1981.11,989 1980,989C1979.36,989 1978.64,989 1978,989C1976.89,989 1976,989.895 1976,991C1976,992.392 1976,994 1976,994L1982,994C1982,994 1982,992.392 1982,991Z" style="fill:rgb(51,51,51);"/>

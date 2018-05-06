@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-770,-1032)">
-        <g id="object.thin.emptyDocument" transform="matrix(0.800768,0,0,0.984948,770.977,1032)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-771,-1032)">
+        <g id="object.thin.emptyDocument" transform="matrix(0.800768,0,0,0.984948,771,1032)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1305,-828.47)">
                 <path d="M1050,819C1050,818.735 1050.11,818.48 1050.3,818.293C1050.48,818.105 1050.74,818 1051,818C1053.28,818 1058.75,818 1060.3,818C1060.56,818 1060.82,818.105 1061,818.293C1061.79,819.077 1063.93,821.216 1064.71,822C1064.9,822.188 1065,822.442 1065,822.707C1065,824.768 1065,833.937 1065,837C1065,837.552 1064.56,838 1064,838C1061.28,838 1053.73,838 1051,838C1050.74,838 1050.48,837.895 1050.3,837.707C1050.11,837.52 1050,837.265 1050,837C1050,833.586 1050,822.414 1050,819ZM1060,819L1051,819L1051,837L1064,837L1064,823C1064,823 1062.19,823 1061,823C1060.74,823 1060.48,822.895 1060.3,822.708C1060.11,822.52 1060,822.266 1060,822C1060,820.815 1060,819 1060,819ZM1061,822L1063.3,822.001L1061,819.707L1061,822Z" style="fill:rgb(51,51,51);"/>
