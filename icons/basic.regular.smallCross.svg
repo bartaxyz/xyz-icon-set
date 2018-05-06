@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-962,-176)">
-        <g id="basic.regular.smallCross" transform="matrix(0.800768,0,0,0.984948,962.977,176)">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-963,-176)">
+        <g id="basic.regular.smallCross" transform="matrix(0.800768,0,0,0.984948,963,176)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-2396.45,-178.69)">
                 <path d="M1931,186.586C1931,186.586 1933.91,183.672 1935.29,182.293C1935.48,182.105 1935.74,182 1936,182C1936.27,182 1936.52,182.105 1936.71,182.293C1936.89,182.48 1937,182.735 1937,183C1937,183.265 1936.89,183.52 1936.71,183.707C1935.33,185.086 1932.41,188 1932.41,188C1932.41,188 1935.33,190.914 1936.71,192.293C1936.89,192.48 1937,192.735 1937,193C1937,193.265 1936.89,193.52 1936.71,193.707C1936.52,193.895 1936.27,194 1936,194C1935.74,194 1935.48,193.895 1935.29,193.707C1933.91,192.328 1931,189.414 1931,189.414C1931,189.414 1928.09,192.328 1926.71,193.707C1926.52,193.895 1926.27,194 1926,194C1925.74,194 1925.48,193.895 1925.29,193.707C1925.11,193.52 1925,193.265 1925,193C1925,192.735 1925.11,192.48 1925.29,192.293C1926.67,190.914 1929.59,188 1929.59,188C1929.59,188 1926.67,185.086 1925.29,183.707C1925.11,183.52 1925,183.265 1925,183C1925,182.735 1925.11,182.48 1925.29,182.293C1925.48,182.105 1925.74,182 1926,182C1926.27,182 1926.52,182.105 1926.71,182.293C1928.09,183.672 1931,186.586 1931,186.586Z" style="fill:rgb(51,51,51);"/>
