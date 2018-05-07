@@ -44,7 +44,6 @@
 ![](/icons/object.regular.lockUnlocked.svg)
 ![](/icons/object.regular.map.svg)
 ![](/icons/object.regular.mapPin.svg)
-![](/icons/object.regular.paperPlane.svg)
 ![](/icons/object.regular.person.svg)
 ![](/icons/object.regular.picture.svg)
 ![](/icons/object.regular.shoppingBag.svg)
