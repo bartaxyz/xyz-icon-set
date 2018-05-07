@@ -23,6 +23,9 @@
 ![](/icons/basic.regular.smallTriangle.svg)
 ![](/icons/basic.regular.square.svg)
 ![](/icons/basic.regular.triangle.svg)
+![](/icons/basic.regular.pentagon.svg)
+![](/icons/basic.regular.hexagon.svg)
+![](/icons/basic.regular.octagon.svg)
 ![](/icons/object.regular.QRCode.svg)
 ![](/icons/object.regular.bell.svg)
 ![](/icons/object.regular.champaigne.svg)
@@ -92,6 +95,9 @@
 ![](/icons/ui.regular.history.svg)
 ![](/icons/ui.regular.kebabMenuVertical.svg)
 ![](/icons/ui.regular.kebabMenuHorizontal.svg)
+![](/icons/ui.regular.link.svg)
+![](/icons/ui.regular.rss.svg)
+![](/icons/ui.regular.soundwave.svg)
 
 ## Icons
 
