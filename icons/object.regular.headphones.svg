@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;">
+    <g transform="matrix(1,0,0,1,-2803,-984)">
+        <g id="object.regular.headphones" transform="matrix(1,0,0,1,1235,214)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,-1235,-212)">
+                <path d="M2808,993C2808,989.137 2811.14,986 2815,986C2818.86,986 2822,989.137 2822,993" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-1235,-213)">
+                <path d="M2822,994L2822,996" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;stroke-linecap:butt;"/>
+            </g>
+            <g transform="matrix(-1,0,0,1,4396,-214)">
+                <path d="M2822,997L2821,997L2821,1003L2822,1003L2824,1002L2824,998L2822,997Z" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-1236,-214)">
+                <path d="M2822,997L2821,997L2821,1003L2822,1003L2824,1002L2824,998L2822,997Z" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(-1,0,0,1,4395,-213)">
+                <path d="M2822,994L2822,996" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;stroke-linecap:butt;"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-675,-1080)">
-        <g id="object.filled.stick" transform="matrix(0.800768,0,0,0.984948,675,1080)">
+    <g transform="matrix(1,0,0,1,-1173,-1080)">
+        <g id="object.filled.stick" transform="matrix(0.800768,0,0,0.984948,1173,1080)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1245.06,-779.737)">
                 <path d="M1008,779.785L1011.9,771.421C1012.13,770.92 1012.73,770.704 1013.23,770.937C1013.73,771.17 1013.95,771.766 1013.71,772.266L1006.11,788.579C1005.87,789.08 1005.28,789.296 1004.78,789.063C1004.28,788.83 1004.06,788.234 1004.29,787.734L1007,781.929L1007,773.5C1007,773.224 1007.22,773 1007.5,773C1007.78,773 1008,773.224 1008,773.5L1008,779.785Z" style="fill:rgb(51,51,51);"/>

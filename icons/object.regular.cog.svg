@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-1345,-984)">
-        <g id="object.regular.cog" transform="matrix(1,0,0,1,-223,214)">
+    <g transform="matrix(1,0,0,1,-1843,-984)">
+        <g id="object.regular.cog" transform="matrix(1,0,0,1,275,214)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-99.0029,2)">
                 <path d="M1677,773.29L1677,771L1681,771L1681,773.29C1682.07,773.607 1683.03,774.171 1683.81,774.915L1685.8,773.768L1687.8,777.232L1685.81,778.377C1685.94,778.898 1686,779.441 1686,780C1686,780.559 1685.94,781.102 1685.81,781.623L1687.8,782.768L1685.8,786.232L1683.81,785.085C1683.03,785.829 1682.07,786.393 1681,786.71L1681,789L1677,789L1677,786.71C1675.94,786.393 1674.98,785.829 1674.19,785.085L1672.21,786.232L1670.21,782.768L1672.19,781.623C1672.07,781.102 1672,780.559 1672,780C1672,779.441 1672.07,778.898 1672.19,778.377L1670.21,777.232L1672.21,773.768L1674.19,774.915C1674.98,774.171 1675.94,773.607 1677,773.29Z" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;"/>

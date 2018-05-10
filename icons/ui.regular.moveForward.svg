@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1923,-558)">
-        <g id="ui.regular.moveForward" transform="matrix(0.800768,0,0,0.984948,1923,558)">
+    <g transform="matrix(1,0,0,1,-2421,-558)">
+        <g id="ui.regular.moveForward" transform="matrix(0.800768,0,0,0.984948,2421,558)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1918.16,-566.528)">
                 <path d="M1554,575C1554,575.265 1553.89,575.52 1553.71,575.707C1553.52,575.895 1553.27,576 1553,576C1550.74,576 1545.26,576 1543,576C1542.74,576 1542.48,575.895 1542.29,575.707C1542.11,575.52 1542,575.265 1542,575C1542,572.74 1542,567.26 1542,565C1542,564.735 1542.11,564.48 1542.29,564.293C1542.48,564.105 1542.74,564 1543,564C1545.26,564 1550.74,564 1553,564C1553.27,564 1553.52,564.105 1553.71,564.293C1553.89,564.48 1554,564.735 1554,565C1554,567.26 1554,572.74 1554,575ZM1552,574L1552,566L1544,566L1544,574L1552,574Z"/>

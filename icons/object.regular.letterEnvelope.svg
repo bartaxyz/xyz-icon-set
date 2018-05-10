@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;">
-    <g transform="matrix(1,0,0,1,-627,-984)">
-        <g id="object.regular.letterEnvelope" transform="matrix(0.800768,0,0,0.984948,627,984)">
+    <g transform="matrix(1,0,0,1,-1125,-984)">
+        <g id="object.regular.letterEnvelope" transform="matrix(0.800768,0,0,0.984948,1125,984)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1185.12,-779.737)">
                 <path d="M951.003,774C951.003,773.448 951.451,773 952.003,773C955.417,773 966.589,773 970.003,773C970.555,773 971.003,773.448 971.003,774C971.003,776.577 971.003,783.423 971.003,786C971.003,786.552 970.555,787 970.003,787C966.589,787 955.417,787 952.003,787C951.451,787 951.003,786.552 951.003,786C951.003,783.423 951.003,776.577 951.003,774ZM953.003,775L952.997,785L968.997,785L969.003,775.009L953.003,775Z" style="fill:rgb(51,51,51);"/>

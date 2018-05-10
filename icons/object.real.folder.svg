@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-819,-1128)">
-        <g id="object.real.folder" transform="matrix(0.800768,0,0,0.984948,819,1128)">
+    <g transform="matrix(1,0,0,1,-1317,-1128)">
+        <g id="object.real.folder" transform="matrix(0.800768,0,0,0.984948,1317,1128)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-539.482,-877.204)">
                 <path d="M446.276,868.553C446.107,868.214 445.761,868 445.382,868C443.759,868 439.5,868 439.5,868L439.5,871L447.5,871C447.5,871 446.71,869.419 446.276,868.553Z" style="fill:rgb(51,51,51);"/>

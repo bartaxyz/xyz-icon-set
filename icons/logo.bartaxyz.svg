@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-387,0)">
-        <g id="logo.regular.bartaxyz" transform="matrix(0.800768,0,0,0.984948,387,0)">
+    <g transform="matrix(1,0,0,1,-885,0)">
+        <g id="logo.regular.bartaxyz" transform="matrix(0.800768,0,0,0.984948,885,0)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-1.2488,-1.01528)">
                 <path d="M15.847,11C15.847,11 18.061,11 19.5,11C19.797,11 20.08,11.132 20.27,11.361C20.459,11.59 20.538,11.892 20.483,12.184C20.097,14.24 19.314,18.419 18.983,20.184C18.894,20.657 18.481,21 18,21C15.629,21 8.813,21 6,21C5.698,21 5.412,20.864 5.222,20.629C5.032,20.394 4.959,20.086 5.022,19.79C5.692,16.666 7.466,8.387 8.022,5.79C8.121,5.329 8.528,5 9,5C10.267,5 12.709,5 14,5C14.489,5 14.906,5.353 14.986,5.836C15.261,7.485 15.847,11 15.847,11ZM9.808,7L7.237,19L17.17,19L18.295,13C18.295,13 16.212,13 15,13C14.511,13 14.094,12.647 14.014,12.164C13.739,10.515 13.153,7 13.153,7L9.808,7Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>

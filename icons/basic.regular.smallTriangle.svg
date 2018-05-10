@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-819,-176)">
-        <g id="basic.regular.smallTriangle" transform="matrix(0.800768,0,0,0.984948,819,176)">
+    <g transform="matrix(1,0,0,1,-1317,-176)">
+        <g id="basic.regular.smallTriangle" transform="matrix(0.800768,0,0,0.984948,1317,176)">
             <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
             <g transform="matrix(1.2488,0,0,1.01528,-359.655,-2.84217e-14)">
                 <path d="M306.857,15.486C307.043,15.794 307.048,16.179 306.87,16.493C306.693,16.806 306.36,17 306,17C303.011,17 296.989,17 294,17C293.64,17 293.307,16.806 293.13,16.493C292.952,16.179 292.957,15.794 293.142,15.486C294.654,12.966 297.665,7.947 299.142,5.485C299.323,5.184 299.649,5 300,5C300.351,5 300.677,5.184 300.857,5.485C302.335,7.947 305.346,12.966 306.857,15.486ZM295.766,15L304.234,15L300,7.944L295.766,15Z" style="fill:rgb(51,51,51);fill-rule:nonzero;"/>

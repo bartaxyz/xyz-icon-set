@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-1299,-1032)">
-        <g id="object.thin.clock" transform="matrix(1,0,0,1,-269,262)">
+    <g transform="matrix(1,0,0,1,-1797,-1032)">
+        <g id="object.thin.clock" transform="matrix(1,0,0,1,229,262)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(1,0,0,1,-52.5,2)">
                 <path d="M1633,774L1633,780L1630,783" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
