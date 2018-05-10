@@ -111,7 +111,6 @@
 ![](/icons/ui.regular.pause.svg)
 ![](/icons/ui.regular.play.svg)
 ![](/icons/ui.regular.questionMark.svg)
-![](/icons/ui.regular.refresh.svg)
 ![](/icons/ui.regular.rss.svg)
 ![](/icons/ui.regular.shrink.svg)
 ![](/icons/ui.regular.soundwave.svg)
