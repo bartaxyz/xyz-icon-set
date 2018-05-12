@@ -1,6 +1,6 @@
 .DS_STORE
-/.vscode
-/node_modules
-/dist
+.vscode
+node_modules
+dist
 
 npm-debug.log
