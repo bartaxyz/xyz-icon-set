@@ -1,4 +1,6 @@
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
+import { compile } from 'handlebars';
+import { JSDOM } from 'jsdom';
 import { iconDirectory } from '../config';
 import BaseProcessor, { Icon } from './base';
 
@@ -13,32 +15,37 @@ export default class SVGProcessor extends BaseProcessor {
         this.iconFileExtension = 'svg';
     }
 
-    processIconContent(name: string, content: string) {
-        return content
-            .replace('width="100%" height="100%"', name.indexOf('.real.') === -1 ?'width="24px" height="24px"' : 'width="48px" height="48px"')
+    processIconContent(icon: Icon) {
+
+        const dom = new JSDOM(icon.source);
+        const svg = dom.window.document.querySelector('svg');
+
+        const size = icon.theme !== 'real' ? '24px' : '48px';
+        
+        svg.setAttribute('width', size);
+        svg.setAttribute('height', size);
+
+        return svg.outerHTML
             .replace(/#(000|000000|333|333333)/g, primaryColor)
             .replace(/rgb\(51,51,51\)/g, primaryColor)
             .replace(/#(666|666666)/g, gradientColorPrimary)
             .replace(/#(fff|FFF|ffffff|FFFFFF)/g, gradientColorSecondary)
-            .replace(/id="/g, `id="file:${name}_id:`)
-            .replace(/url\(\#/g, `url(#file:${name}_id:`);
+            .replace(/id="/g, `id="file:${icon.category}.${icon.theme}.${icon.name}_id:`)
+            .replace(/url\(\#/g, `url(#file:${icon.category}.${icon.theme}.${icon.name}_id:`)
+            .replace(/\n/g, '');
     }
-
-    wrapIcon(icon) {}
 
     run() {
         const icons: Icon[] = this.getIcons();
-        console.log(icons[5]);
-        const regularIconNames: string[] = this.getIconNames().filter(name => name.indexOf('.regular.') !== -1);
-        const thinIconNames: string[] = this.getIconNames().filter(name => name.indexOf('.thin.') !== -1);
+        
+        const fileContent = readFileSync(`./src/templates/icons.js`, { encoding: 'utf-8' });
+        writeFileSync('./dist/index.js', compile(fileContent)({ icons }));
 
-        const regularIcons: Icon[] = [];
-        const thinIcons: Icon[] = [];
 
-        // icons.filter()
+        const typesFileContent = readFileSync(`./src/templates/icons.d.ts`, { encoding: 'utf-8' });
+        writeFileSync('./dist/index.d.ts', compile(typesFileContent)({ icons }));
 
-        // writeFileSync('./icons.js', regularIcons[0]);
-        // TODO: typings
+        // TODO: typescript typings
         // writeFileSync() 
     }
 };
