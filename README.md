@@ -2,6 +2,19 @@
 
 [![](/icons/logo.bartaxyz.svg)](http://ondrejbarta.xyz)
 
+![](/icons/object.regular.bell.svg)
+![](/icons/object.regular.calendar.svg)
+![](/icons/object.regular.camera.svg)
+![](/icons/object.regular.champaigne.svg)
+![](/icons/object.regular.clock.svg)
+![](/icons/object.regular.cog.svg)
+![](/icons/object.thin.bell.svg)
+![](/icons/object.thin.calendar.svg)
+![](/icons/object.thin.camera.svg)
+![](/icons/object.thin.champaigne.svg)
+![](/icons/object.thin.clock.svg)
+![](/icons/object.thin.cog.svg)
+
 Regular
 
 ![](/icons/basic.regular.arrowDown.svg)
