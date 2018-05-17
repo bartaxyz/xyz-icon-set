@@ -11,7 +11,7 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "mocha tests --compilers js:babel-register",
     "test:dev": "npm run test -- --watch",
-    "_prepublish": "npm run clean & npm run build"
+    "prepublish": "npm run clean & npm run build"
   },
   "repository": {
     "type": "git",
