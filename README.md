@@ -1,7 +1,3 @@
-# XYZ Icon Set
-
-[![](/icons/logo.bartaxyz.svg)](http://ondrejbarta.xyz)
-
 ![](/icons/object.regular.bell.svg)
 ![](/icons/object.regular.calendar.svg)
 ![](/icons/object.regular.camera.svg)
