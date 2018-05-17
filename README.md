@@ -33,7 +33,6 @@
 ![](/icons/weather.regular.moon.svg)
 ![](/icons/weather.regular.sun.svg)
 ![](/icons/ui.regular.warning.svg)
-
 ![](/icons/object.thin.bell.svg)
 ![](/icons/object.thin.calendar.svg)
 ![](/icons/object.thin.camera.svg)
