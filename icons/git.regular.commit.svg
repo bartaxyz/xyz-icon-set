@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-932,-1634)">
+        <g id="git.regular.commit" transform="matrix(1,0,0,1,-636,864)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,636,-864)">
+                <path d="M945,1643.17C946.165,1643.58 947,1644.69 947,1646C947,1647.31 946.165,1648.42 945,1648.83C945,1648.83 945,1653.03 945,1655C945,1655.27 944.895,1655.52 944.707,1655.71C944.52,1655.89 944.265,1656 944,1656C943.448,1656 943,1655.55 943,1655C943,1653.03 943,1648.83 943,1648.83C941.835,1648.42 941,1647.31 941,1646C941,1644.69 941.835,1643.58 943,1643.17C943,1643.17 943,1638.97 943,1637C943,1636.74 943.105,1636.48 943.293,1636.29C943.48,1636.11 943.735,1636 944,1636C944.552,1636 945,1636.45 945,1637C945,1638.97 945,1643.17 945,1643.17ZM944,1645C944.552,1645 945,1645.45 945,1646C945,1646.55 944.552,1647 944,1647C943.448,1647 943,1646.55 943,1646C943,1645.45 943.448,1645 944,1645Z" style="fill:rgb(51,51,51);"/>
+            </g>
+        </g>
+    </g>
+</svg>
