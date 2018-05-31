@@ -38,12 +38,20 @@ export default class SVGProcessor extends BaseProcessor {
     run() {
         const icons: Icon[] = this.getIcons();
         
-        const fileContent = readFileSync(`./src/templates/icons.js`, { encoding: 'utf-8' });
+        const fileContent = readFileSync(`./src/templates/icons-js.template`, { encoding: 'utf-8' });
         writeFileSync('./dist/index.js', compile(fileContent)({ icons }));
 
+        const uniqueIcons: Icon[] = [];
+        this.getIcons().filter((icon: Icon) => {
+            if (!(uniqueIcons.some((uniqueIcon: Icon) => uniqueIcon.name === icon.name))) {
+                uniqueIcons.push(icon);
+            }
+        });
 
-        const typesFileContent = readFileSync(`./src/templates/icons.d.ts`, { encoding: 'utf-8' });
-        writeFileSync('./dist/index.d.ts', compile(typesFileContent)({ icons }));
+        const typesFileContent = readFileSync(`./src/templates/icons-d-ts.template`, { encoding: 'utf-8' });
+        writeFileSync('./dist/index.d.ts', compile(typesFileContent)({
+            icons: uniqueIcons,
+        }));
 
         // TODO: typescript typings
         // writeFileSync() 

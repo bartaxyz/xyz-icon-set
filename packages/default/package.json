@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
+  "typings": "dist/index",
   "scripts": {
     "clean": "rimraf dist",
     "babel": "babel src -d dist --extensions \".ts,.tsx\"",

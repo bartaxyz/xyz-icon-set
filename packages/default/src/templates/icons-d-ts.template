@@ -1,0 +1,22 @@
+
+export interface Icon {
+    name: string;
+    source: string;
+    category: string;
+    theme: 'regular' | 'thin' | 'filled' | 'real';
+    generate(options: { size?: number, color?: string }): string;
+}
+
+export interface IconWrapper {
+    regular: Icon,
+    thin: Icon,
+    filled?: Icon,
+    real?: Icon,
+}
+
+export default {
+{{#icons}}
+    {{{name}}}: IconWrapper,
+{{/icons}}
+}
+
