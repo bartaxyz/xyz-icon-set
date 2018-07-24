@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-3091,-984)">
+        <g id="object.regular.flagTriangle" transform="matrix(1,0,0,1,1523,214)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(-1,0,0,1,4683,-214)">
+                <path d="M3096.52,993.122C3096.19,993.304 3095.99,993.658 3096,994.036C3096.01,994.415 3096.24,994.754 3096.59,994.91C3100,996.461 3107,999.644 3107,999.644C3107,999.644 3107,1003.21 3107,1005C3107,1005.55 3107.45,1006 3108,1006C3108.55,1006 3109,1005.55 3109,1005C3109,1001.83 3109,991.972 3109,988C3109,987.647 3108.81,987.32 3108.51,987.14C3108.21,986.96 3107.83,986.953 3107.52,987.122C3104.88,988.564 3099.35,991.577 3096.52,993.122ZM3107,997.447L3099.24,993.919L3107,989.685L3107,997.447Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

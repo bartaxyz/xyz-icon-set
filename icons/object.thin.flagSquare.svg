@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-3139,-1032)">
+        <g id="object.thin.flagSquare" transform="matrix(1,0,0,1,1571,262)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(-1,0,0,1,4682.5,-214.5)">
+                <path d="M3096.5,987.5C3095.95,987.5 3095.5,987.948 3095.5,988.5C3095.5,990.76 3095.5,996.24 3095.5,998.5C3095.5,998.765 3095.61,999.02 3095.79,999.207C3095.98,999.395 3096.24,999.5 3096.5,999.5C3099.55,999.5 3108.5,999.5 3108.5,999.5C3108.5,999.5 3108.5,1004.4 3108.5,1006C3108.5,1006.28 3108.72,1006.5 3109,1006.5C3109.28,1006.5 3109.5,1006.28 3109.5,1006C3109.5,1003.46 3109.5,991.976 3109.5,988.5C3109.5,987.948 3109.05,987.5 3108.5,987.5C3105.92,987.5 3099.08,987.5 3096.5,987.5ZM3108.5,998.5L3096.5,998.5L3096.5,988.5L3108.5,988.5L3108.5,998.5Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

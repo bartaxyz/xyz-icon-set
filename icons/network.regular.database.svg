@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:100;">
+    <g transform="matrix(1,0,0,1,-884,-1992)">
+        <g id="network.regular.database" transform="matrix(1,0,0,1,-684,1222)">
+            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
+            <g transform="matrix(0.888889,0,0,1,783.556,-1217)">
+                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:black;stroke-width:2.11px;"/>
+            </g>
+            <g transform="matrix(0.888889,0,0,1,783.556,-1225)">
+                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:black;stroke-width:2.11px;"/>
+            </g>
+            <g transform="matrix(0.888889,0,0,1,783.556,-1221)">
+                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:black;stroke-width:2.11px;"/>
+            </g>
+            <g transform="matrix(0.888889,0,0,1,783.556,-1229)">
+                <ellipse cx="896" cy="2005" rx="9" ry="3" style="fill:none;stroke:black;stroke-width:2.11px;"/>
+            </g>
+            <g transform="matrix(0.888889,0,0,1,783.556,-1222)">
+                <path d="M887,2010L887,1998" style="fill:none;stroke:black;stroke-width:2.11px;stroke-linecap:round;"/>
+            </g>
+            <g transform="matrix(0.888889,0,0,1,783.556,-1222)">
+                <path d="M905,1998L905,2010" style="fill:none;stroke:black;stroke-width:2.11px;stroke-linecap:round;"/>
+            </g>
+        </g>
+    </g>
+</svg>
