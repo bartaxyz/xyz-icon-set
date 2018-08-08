@@ -1,12 +1,12 @@
-var icons = {
-    regular: [],
-    thin: [],
-    filled: [],
-    real: []
-};
+var icons = {};
 
 {{#icons}}
-icons['{{{theme}}}']['{{{name}}}'] = require('./icons/{{{category}}}.{{{theme}}}.{{{name}}}.json');
+
+if (!icons['{{{name}}}']) {
+    icons['{{{name}}}'] = {};
+}
+
+icons['{{{name}}}']['{{{theme}}}'] = require('./icons/{{{category}}}.{{{theme}}}.{{{name}}}.json');
 {{/icons}}
 
 module.exports = icons;

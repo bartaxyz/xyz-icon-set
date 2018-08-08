@@ -5,22 +5,22 @@
         <g id="network.thin.database" transform="matrix(1,0,0,1,-684,1270)">
             <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
             <g transform="matrix(0.944444,0,0,1,733.778,-1217.5)">
-                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:black;stroke-width:1.03px;"/>
+                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:#000;stroke-width:1.03px;"/>
             </g>
             <g transform="matrix(0.944444,0,0,1,733.778,-1225.5)">
-                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:black;stroke-width:1.03px;"/>
+                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:#000;stroke-width:1.03px;"/>
             </g>
             <g transform="matrix(0.944444,0,0,1,733.778,-1221.5)">
-                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:black;stroke-width:1.03px;"/>
+                <path d="M905,2005C905,2006.66 900.967,2008 896,2008C891.033,2008 887,2006.66 887,2005" style="fill:none;stroke:#000;stroke-width:1.03px;"/>
             </g>
             <g transform="matrix(0.944444,0,0,1,733.778,-1229.5)">
-                <ellipse cx="896" cy="2005" rx="9" ry="3" style="fill:none;stroke:black;stroke-width:1.03px;"/>
+                <ellipse cx="896" cy="2005" rx="9" ry="3" style="fill:none;stroke:#000;stroke-width:1.03px;"/>
             </g>
             <g transform="matrix(0.944444,0,0,1,733.778,-1222.5)">
-                <path d="M887,2010L887,1998" style="fill:none;stroke:black;stroke-width:1.03px;stroke-linecap:round;"/>
+                <path d="M887,2010L887,1998" style="fill:none;stroke:#000;stroke-width:1.03px;stroke-linecap:round;"/>
             </g>
             <g transform="matrix(0.944444,0,0,1,733.778,-1222.5)">
-                <path d="M905,1998L905,2010" style="fill:none;stroke:black;stroke-width:1.03px;stroke-linecap:round;"/>
+                <path d="M905,1998L905,2010" style="fill:none;stroke:#000;stroke-width:1.03px;stroke-linecap:round;"/>
             </g>
         </g>
     </g>
