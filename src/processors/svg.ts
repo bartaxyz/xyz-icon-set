@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
-import { compile, template } from 'handlebars';
+import { compile } from 'handlebars';
 import { JSDOM } from 'jsdom';
 import { iconDirectory } from '../config';
 import BaseProcessor, { Icon } from './base';
@@ -41,7 +41,21 @@ export default class SVGProcessor extends BaseProcessor {
 	}
 
 	run() {
-		const icons: Icon[] = this.getIcons();
+		const iconsList: Icon[] = this.getIcons();
+
+		// { iconName: { regular: Icon, thin: Icon} }
+
+		const icons = iconsList.reduce((accumulator, icon) => {
+			if (!accumulator[icon.name]) {
+				accumulator[icon.name] = {
+					[icon.theme]: icon,
+				};
+			} else {
+				accumulator[icon.name][icon.theme] = icon;
+			}
+
+			return accumulator;
+		}, {});
 
 		if (!existsSync('./dist/icons')) {
 			mkdirSync('./dist/icons');
@@ -49,8 +63,8 @@ export default class SVGProcessor extends BaseProcessor {
 
 		this.getIcons().filter((icon: Icon) => {
 			writeFileSync(
-				`./dist/icons/${icon.category}.${icon.theme}.${icon.name}.json`,
-				JSON.stringify(icon),
+				`./dist/icons/${icon.category}.${icon.theme}.${icon.name}.ts`,
+				`export default ${JSON.stringify(icon)};`,
 			);
 		});
 
@@ -58,21 +72,34 @@ export default class SVGProcessor extends BaseProcessor {
 			encoding: 'utf-8',
 		};
 
-		const indexTemplate = readFileSync(
-			'./src/templates/index.template',
-			templateOptions,
-		);
+		const iconNames = iconsList.reduce((accumulator, icon) => {
+			if (accumulator.indexOf(icon.name) === -1) {
+				accumulator.push(icon.name);
+			}
 
-		writeFileSync('./dist/index.js', compile(indexTemplate)({ icons }));
+			return accumulator;
+		}, []);
 
-		const indexTypesTemplate = readFileSync(
-			'./src/templates/index.d.template',
-			templateOptions,
-		);
+		const iconCategories = iconsList.reduce((accumulator, icon) => {
+			if (accumulator.indexOf(icon.category) === -1) {
+				accumulator.push(icon.category);
+			}
+
+			return accumulator;
+		}, []);
+
+		const templateVariables = {
+			icons,
+			iconsList,
+			iconNames,
+			iconCategories,
+		};
 
 		writeFileSync(
-			'./dist/index.d.ts',
-			compile(indexTypesTemplate)({ icons }),
+			'./dist/index.ts',
+			compile(
+				readFileSync('./src/templates/index.template', templateOptions),
+			)(templateVariables),
 		);
 	}
 }

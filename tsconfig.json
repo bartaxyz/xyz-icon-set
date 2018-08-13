@@ -2,5 +2,5 @@
 	"compilerOptions": {
 		"types": ["node", "jasmine"]
 	},
-	"exclude": ["node_modules", "dist", "build"]
+	"exclude": ["node_modules", "build"]
 }

@@ -1,12 +1,45 @@
-var icons = {};
 
-{{#icons}}
+{{#each iconsList}}
+import {{name}}_{{theme}} from './icons/{{{category}}}.{{{theme}}}.{{{name}}}';
+{{/each}}
 
-if (!icons['{{{name}}}']) {
-    icons['{{{name}}}'] = {};
+
+export type IconTheme = 'regular' | 'thin' | 'filled' | 'real';
+
+export interface UnthemedIcon {
+	regular: Icon;
+	thin: Icon;
+	filled?: Icon;
+	real?: Icon;
 }
 
-icons['{{{name}}}']['{{{theme}}}'] = require('./icons/{{{category}}}.{{{theme}}}.{{{name}}}.json');
-{{/icons}}
+export interface Icon {
+	source: string;
+	category: string;
+	theme: IconTheme;
+	name: string;
+}
 
-module.exports = icons;
+export type IconCategory ={{#iconCategories}}
+	| '{{{this}}}'{{/iconCategories}};
+
+export type IconName ={{#iconNames}}
+	| '{{{this}}}'{{/iconNames}};
+
+
+export const iconCategories: IconCategory[] = [{{#iconCategories}}
+	'{{{this}}}',{{/iconCategories}}
+];
+
+export const iconNames: IconName[] = [{{#iconNames}}
+	'{{{this}}}',{{/iconNames}}
+];
+
+export default class XYZIconSet {
+	{{#each icons}}
+	static {{@key}}: UnthemedIcon = {
+		regular: {{#regular}}{{name}}_{{theme}}{{/regular}} as Icon,
+		thin: {{#thin}}{{name}}_{{theme}}{{/thin}} as Icon,
+	};
+	{{/each}}
+};

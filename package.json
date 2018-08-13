@@ -1,13 +1,14 @@
 {
 	"name": "xyz-icon-set",
-	"version": "0.4.1",
+	"version": "0.5.0",
 	"description": "",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
 	"scripts": {
 		"clean": "rimraf dist",
 		"babel": "babel src -d dist --extensions \".ts,.tsx\"",
-		"build": "npm run clean && npm run babel && node ./dist/build.js",
+		"build": "npm run clean && npm run babel && node ./dist/build.js && npm run build-output",
+		"build-output": "tsc dist/index.ts -d --outDir dist/",
 		"lint": "eslint src tests",
 		"lint:fix": "npm run lint -- --fix",
 		"test": "mocha -r ts-node/register src/**/__test__/**/*.ts",
@@ -52,7 +53,9 @@
 		"mocha": "^5.2.0",
 		"rimraf": "^2.6.2",
 		"ts-node": "^7.0.1",
-		"typescript": "^2.6.2",
+		"tslint": "^5.11.0",
+		"tslint-config-airbnb": "^5.9.2",
+		"typescript": "^2.9.2",
 		"typings": "^2.1.1"
 	}
 }
