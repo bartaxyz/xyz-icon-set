@@ -1,13 +1,6 @@
-
 {
-    "compilerOptions": {
-        "types": [
-            "node"
-        ]
-    },
-    "exclude": [
-        "node_modules",
-        "dist",
-        "build"
-    ],
+	"compilerOptions": {
+		"types": ["node", "jasmine"]
+	},
+	"exclude": ["node_modules", "dist", "build"]
 }

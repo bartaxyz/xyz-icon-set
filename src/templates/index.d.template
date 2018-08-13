@@ -1,0 +1,22 @@
+
+export type IconTheme = 'regular' | 'thin' | 'filled' | 'real';
+
+export interface UnthemedIcon {
+	regular: Icon,
+	thin: Icon,
+	filled?: Icon,
+	real?: Icon,
+};
+
+export interface Icon {
+	source: string;
+	category: string;
+	theme: IconTheme;
+	name: string;
+}
+
+export interface icons {
+	{{#icons}}
+	{{{name}}}: UnthemedIcon;
+	{{/icons}}
+};

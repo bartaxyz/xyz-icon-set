@@ -1,53 +1,58 @@
 {
-  "name": "xyz-icon-set",
-  "version": "0.3.0",
-  "description": "",
-  "main": "dist/index.js",
-  "typings": "dist/index",
-  "scripts": {
-    "clean": "rimraf dist",
-    "babel": "babel src -d dist --extensions \".ts,.tsx\"",
-    "build": "npm run babel && node ./dist/build.js",
-    "lint": "eslint src tests",
-    "lint:fix": "npm run lint -- --fix",
-    "test": "mocha tests --compilers js:babel-register",
-    "test:dev": "npm run test -- --watch",
-    "prepublish": "npm run clean & npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bartaxyz/xyz-icon-set.git"
-  },
-  "keywords": [
-    "xyz",
-    "icon",
-    "set",
-    "icons"
-  ],
-  "author": "Ondřej Bárta (https://ondrejbarta.xyz)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bartaxyz/xyz-icon-set/issues"
-  },
-  "homepage": "https://github.com/bartaxyz/xyz-icon-set",
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.32",
-    "@babel/core": "^7.0.0-beta.32",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.32",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.32",
-    "@babel/preset-env": "^7.0.0-beta.32",
-    "@babel/preset-typescript": "^7.0.0-beta.32",
-    "@types/handlebars": "^4.0.37",
-    "@types/jsdom": "^11.0.4",
-    "@types/node": "^10.0.0",
-    "chai": "^4.1.2",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "handlebars": "^4.0.11",
-    "jsdom": "^11.10.0",
-    "mocha": "^5.1.1",
-    "rimraf": "^2.6.2",
-    "typescript": "^2.6.2"
-  }
+	"name": "xyz-icon-set",
+	"version": "0.4.0",
+	"description": "",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"scripts": {
+		"clean": "rimraf dist",
+		"babel": "babel src -d dist --extensions \".ts,.tsx\"",
+		"build": "npm run clean && npm run babel && node ./dist/build.js",
+		"lint": "eslint src tests",
+		"lint:fix": "npm run lint -- --fix",
+		"test": "mocha -r ts-node/register src/**/__test__/**/*.ts",
+		"test:dev": "npm run test -- --watch",
+		"prepublish": "npm test && npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bartaxyz/xyz-icon-set.git"
+	},
+	"keywords": [
+		"xyz",
+		"icon",
+		"set",
+		"icons"
+	],
+	"author": "Ondřej Bárta (https://ondrejbarta.xyz)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bartaxyz/xyz-icon-set/issues"
+	},
+	"homepage": "https://github.com/bartaxyz/xyz-icon-set",
+	"devDependencies": {
+		"@babel/cli": "^7.0.0-beta.32",
+		"@babel/core": "^7.0.0-beta.32",
+		"@babel/plugin-proposal-class-properties": "^7.0.0-beta.32",
+		"@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.32",
+		"@babel/preset-env": "^7.0.0-beta.32",
+		"@babel/preset-typescript": "^7.0.0-beta.32",
+		"@types/chai": "^4.1.4",
+		"@types/handlebars": "^4.0.37",
+		"@types/jasmine": "^2.8.8",
+		"@types/jsdom": "^11.0.4",
+		"@types/node": "^10.5.8",
+		"chai": "^4.1.2",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-plugin-import": "^2.11.0",
+		"handlebars": "^4.0.11",
+		"jasmine": "^3.2.0",
+		"jsdom": "^11.10.0",
+		"mocha": "^5.2.0",
+		"rimraf": "^2.6.2",
+		"ts-node": "^7.0.1",
+		"typescript": "^2.6.2",
+		"typings": "^2.1.1"
+	}
 }
