@@ -70,6 +70,9 @@ export default class SVGProcessor extends BaseProcessor {
 			templateOptions,
 		);
 
-		writeFileSync('./dist/index.d.ts', compile(indexTemplate)({ icons }));
+		writeFileSync(
+			'./dist/index.d.ts',
+			compile(indexTypesTemplate)({ icons }),
+		);
 	}
 }
