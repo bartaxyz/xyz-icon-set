@@ -46,11 +46,17 @@ export interface IconComponents { {{#iconComponentNames}}
 	{{this}}: any;{{/iconComponentNames}}
 }
 
-export default class XYZIconSet {
+{{#each icons}}
+export const {{@key}}: UnthemedIcon = {
+	regular: {{#regular}}{{name}}_{{theme}}{{/regular}} as Icon,
+	thin: {{#thin}}{{name}}_{{theme}}{{/thin}} as Icon,
+};
+{{/each}}
+
+const XYZIconSet = {
 	{{#each icons}}
-	static {{@key}}: UnthemedIcon = {
-		regular: {{#regular}}{{name}}_{{theme}}{{/regular}} as Icon,
-		thin: {{#thin}}{{name}}_{{theme}}{{/thin}} as Icon,
-	};
+	{{@key}},
 	{{/each}}
 };
+
+export default XYZIconSet;
