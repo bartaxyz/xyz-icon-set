@@ -23,6 +23,7 @@ export default class SVGProcessor extends BaseProcessor {
 
 		svg.setAttribute('width', size);
 		svg.setAttribute('height', size);
+		svg.setAttribute('viewBox', '0 0 24 24');
 
 		return svg.outerHTML
 			.replace(/#(000|000000|333|333333|black)/g, primaryColor)
@@ -88,11 +89,27 @@ export default class SVGProcessor extends BaseProcessor {
 			return accumulator;
 		}, []);
 
+		const getIconComponentName = (icon: Icon) => {
+			return (
+				icon.name.charAt(0).toUpperCase() + icon.name.substr(1) + 'Icon'
+			);
+		};
+		const iconComponentNames = iconsList.reduce((accumulator, icon) => {
+			const iconComponentName = getIconComponentName(icon);
+
+			if (accumulator.indexOf(iconComponentName) === -1) {
+				accumulator.push(iconComponentName);
+			}
+
+			return accumulator;
+		}, []);
+
 		const templateVariables = {
 			icons,
 			iconsList,
 			iconNames,
 			iconCategories,
+			iconComponentNames,
 		};
 
 		writeFileSync(

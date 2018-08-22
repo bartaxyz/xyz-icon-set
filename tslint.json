@@ -3,7 +3,7 @@
 	"extends": ["tslint-config-airbnb"],
 	"jsRules": {},
 	"rules": {
-		"indent": [true, "tabs"]
+		"indent": [true, "tabs", 2]
 	},
 	"rulesDirectory": []
 }

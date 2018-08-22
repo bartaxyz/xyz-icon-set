@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;">
-    <g transform="matrix(1,0,0,1,-884,-1324)">
-        <g id="weather.thin.storm" transform="matrix(1,0,0,1,-684,554)">
-            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
-            <g transform="matrix(1,0,0,1,-205.5,-214)">
-                <path d="M1781,1004.5L1792,992.5L1788,992.5L1793,986.5L1784,986.5L1781,995.5L1784,995.5L1781,1004.5Z" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 20.5L18.5 8.5H14.5L19.5 2.5H10.5L7.5 11.5H10.5L7.5 20.5Z" stroke="#333333" stroke-miterlimit="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

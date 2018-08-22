@@ -1,15 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;">
-    <g transform="matrix(1,0,0,1,-932,-1813)">
-        <g id="chart.regular.lineChart" transform="matrix(1,0,0,1,-636,1043)">
-            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
-            <g transform="matrix(1,0,0,1,684,-1043)">
-                <path d="M888,1833C888,1833 901.218,1833 905,1833C905.265,1833 905.52,1833.11 905.707,1833.29C905.895,1833.48 906,1833.74 906,1834C906,1834.27 905.895,1834.52 905.707,1834.71C905.52,1834.89 905.265,1835 905,1835C901.586,1835 890.414,1835 887,1835C886.735,1835 886.48,1834.89 886.293,1834.71C886.105,1834.52 886,1834.27 886,1834C886,1830.59 886,1819.41 886,1816C886,1815.74 886.105,1815.48 886.293,1815.29C886.48,1815.11 886.735,1815 887,1815C887.265,1815 887.52,1815.11 887.707,1815.29C887.895,1815.48 888,1815.74 888,1816C888,1819.78 888,1833 888,1833Z" style="fill:rgb(51,51,51);"/>
-            </g>
-            <g transform="matrix(1,0,0,1,636,-1043)">
-                <path d="M939,1830L943,1823L947,1825L951,1818" style="fill:none;stroke:rgb(51,51,51);stroke-width:2px;"/>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4 20C4 20 17.218 20 21 20C21.265 20 21.52 20.11 21.707 20.29C21.895 20.48 22 20.74 22 21C22 21.27 21.895 21.52 21.707 21.71C21.52 21.89 21.265 22 21 22C17.586 22 6.414 22 3 22C2.735 22 2.48003 21.89 2.29303 21.71C2.10503 21.52 2 21.27 2 21C2 17.59 2 6.41 2 3C2 2.74 2.10503 2.48004 2.29303 2.29004C2.48003 2.11004 2.735 2 3 2C3.265 2 3.51997 2.11004 3.70697 2.29004C3.89497 2.48004 4 2.74 4 3C4 6.78 4 20 4 20Z" fill="#333333"/>
+<path d="M7 17L11 10L15 12L19 5" stroke="#333333" stroke-width="2" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

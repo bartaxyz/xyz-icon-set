@@ -1,21 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;">
-    <g transform="matrix(1,0,0,1,-1076,-1503)">
-        <g id="social.thin.hashtag" transform="matrix(1,0,0,1,-492,733)">
-            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
-            <g transform="matrix(1,0,0,1,988.846,-685.119)">
-                <path d="M589.654,1458.12L587.654,1476.12" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,991.846,-685.119)">
-                <path d="M591.654,1458.12L589.654,1476.12" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,987.846,-683.119)">
-                <path d="M598.654,1461.62L585.654,1461.62" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,987.846,-677.119)">
-                <path d="M598.654,1461.62L585.654,1461.62" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2" height="18" fill="black" fill-opacity="0" transform="translate(8.5 3.00098)"/>
+<path d="M10.5 3.00098L8.5 21.001" stroke="#333333" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="2" height="18" fill="black" fill-opacity="0" transform="translate(13.5 3.00098)"/>
+<path d="M15.5 3.00098L13.5 21.001" stroke="#333333" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="13" height="0" fill="black" fill-opacity="0" transform="translate(5.5 8.50098)"/>
+<path d="M18.5 8.50098H5.5" stroke="#333333" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="13" height="0" fill="black" fill-opacity="0" transform="translate(5.5 14.501)"/>
+<path d="M18.5 14.501H5.5" stroke="#333333" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -21,19 +21,30 @@ export interface Icon {
 }
 
 export type IconCategory ={{#iconCategories}}
-	| '{{{this}}}'{{/iconCategories}};
+	| '{{this}}'{{/iconCategories}};
 
 export type IconName ={{#iconNames}}
-	| '{{{this}}}'{{/iconNames}};
+	| '{{this}}'{{/iconNames}};
+
+export type IconComponentName ={{#iconComponentNames}}
+	| '{{this}}'{{/iconComponentNames}}
 
 
 export const iconCategories: IconCategory[] = [{{#iconCategories}}
-	'{{{this}}}',{{/iconCategories}}
+	'{{this}}',{{/iconCategories}}
 ];
 
 export const iconNames: IconName[] = [{{#iconNames}}
-	'{{{this}}}',{{/iconNames}}
+	'{{this}}',{{/iconNames}}
 ];
+
+export const iconComponentNames: IconComponentName[] = [{{#iconComponentNames}}
+	'{{this}}',{{/iconComponentNames}}
+];
+
+export interface IconComponents { {{#iconComponentNames}}
+	{{this}}: any;{{/iconComponentNames}}
+}
 
 export default class XYZIconSet {
 	{{#each icons}}

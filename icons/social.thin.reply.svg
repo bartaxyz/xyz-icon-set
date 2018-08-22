@@ -1,18 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;">
-    <g transform="matrix(1,0,0,1,-1172,-1503)">
-        <g id="social.thin.reply" transform="matrix(1,0,0,1,-396,733)">
-            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
-            <g transform="matrix(1,0,0,1,891.846,-685.619)">
-                <path d="M684.654,1472.12C682.999,1472.12 681.654,1470.78 681.654,1469.12C681.654,1467.46 682.999,1466.12 684.654,1466.12" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-            <g transform="matrix(1.05263,0,0,1,855.811,-685.619)">
-                <path d="M684.654,1466.12L694.154,1466.12" style="fill:none;stroke:rgb(51,51,51);stroke-width:0.97px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,895.346,-685.619)">
-                <path d="M688.154,1463.12L691.154,1466.12L688.154,1469.12" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="3" height="6" fill="black" fill-opacity="0" transform="translate(5.5 10.501)"/>
+<path d="M8.5 16.501C6.845 16.501 5.5 15.161 5.5 13.501C5.5 11.841 6.845 10.501 8.5 10.501" stroke="#333333" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="9.5" height="0" fill="black" fill-opacity="0" transform="translate(8.49829 10.501) scale(1.05263 1)"/>
+<path d="M8.49829 10.501H18.4983" stroke="#333333" stroke-width="0.97" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="3" height="6" fill="black" fill-opacity="0" transform="translate(15.5 7.50098)"/>
+<path d="M15.5 7.50098L18.5 10.501L15.5 13.501" stroke="#333333" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

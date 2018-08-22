@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100;">
-    <g transform="matrix(1,0,0,1,-1124,-1503)">
-        <g id="social.thin.mention" transform="matrix(1,0,0,1,-444,733)">
-            <rect x="1568" y="770" width="24" height="24" style="fill:none;"/>
-            <g transform="matrix(1,0,0,1,444,-733)">
-                <path d="M1139.58,1516.78C1138.93,1518.09 1137.57,1519 1136,1519C1133.79,1519 1132,1517.21 1132,1515C1132,1512.79 1133.79,1511 1136,1511C1138.21,1511 1140,1512.79 1140,1515L1140,1515.01C1140.01,1516.11 1140.9,1517 1142,1517C1143.1,1517 1144,1516.1 1144,1515L1145,1515C1145,1516.66 1143.66,1518 1142,1518C1141.01,1518 1140.13,1517.52 1139.58,1516.78ZM1136,1512C1137.66,1512 1139,1513.34 1139,1515C1139,1516.66 1137.66,1518 1136,1518C1134.34,1518 1133,1516.66 1133,1515C1133,1513.34 1134.34,1512 1136,1512Z" style="fill:rgb(51,51,51);"/>
-            </g>
-            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,-294.54,514.007)">
-                <path d="M1136,1523.5C1131.31,1523.5 1127.5,1519.69 1127.5,1515C1127.5,1510.31 1131.31,1506.5 1136,1506.5C1140.69,1506.5 1144.5,1510.31 1144.5,1515" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;"/>
-            </g>
-            <g transform="matrix(1,-1.11022e-16,1.11022e-16,1,444,-733)">
-                <path d="M1136,1523.5C1131.31,1523.5 1127.5,1519.69 1127.5,1515C1127.5,1510.31 1131.31,1506.5 1136,1506.5C1140.69,1506.5 1144.5,1510.31 1144.5,1515" style="fill:none;stroke:rgb(51,51,51);stroke-width:1px;stroke-linecap:butt;"/>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="13" height="8" fill="black" fill-opacity="0" transform="translate(8.02014 8.02026)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.6001 13.8003C14.9501 15.1103 13.5901 16.0203 12.0201 16.0203C9.81014 16.0203 8.02014 14.2303 8.02014 12.0203C8.02014 9.81026 9.81014 8.02026 12.0201 8.02026C14.2301 8.02026 16.0201 9.81026 16.0201 12.0203V12.0303C16.0301 13.1303 16.9201 14.0203 18.0201 14.0203C19.1201 14.0203 20.0201 13.1203 20.0201 12.0203H21.0201C21.0201 13.6803 19.6801 15.0203 18.0201 15.0203C17.0301 15.0203 16.1501 14.5403 15.6001 13.8003ZM12.0201 9.02026C13.6801 9.02026 15.0201 10.3603 15.0201 12.0203C15.0201 13.6803 13.6801 15.0203 12.0201 15.0203C10.3601 15.0203 9.02014 13.6803 9.02014 12.0203C9.02014 10.3603 10.3601 9.02026 12.0201 9.02026Z" fill="#333333"/>
+<rect width="17" height="17" fill="black" fill-opacity="0" transform="translate(0 12.0209) rotate(-45)"/>
+<path d="M18.0312 18.0313C14.7149 21.3476 9.32674 21.3476 6.01041 18.0313C2.69408 14.715 2.69408 9.3268 6.01041 6.01046C9.32674 2.69413 14.7149 2.69413 18.0312 6.01046" stroke="#333333" stroke-miterlimit="100" stroke-linecap="square" stroke-linejoin="round"/>
+<rect width="17" height="17" fill="black" fill-opacity="0" transform="translate(3.52014 3.52026)"/>
+<path d="M12.0201 20.5203C7.33014 20.5203 3.52014 16.7103 3.52014 12.0203C3.52014 7.33026 7.33014 3.52026 12.0201 3.52026C16.7101 3.52026 20.5201 7.33026 20.5201 12.0203" stroke="#333333" stroke-miterlimit="100" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
 </svg>

@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1221,-224)">
-        <g id="basic.thin.rectangle" transform="matrix(0.800768,0,0,0.984948,1221,224)">
-            <rect x="0" y="0" width="29.971" height="24.367" style="fill:none;"/>
-            <g transform="matrix(1.2488,0,0,1.01528,-1245.06,-178.69)">
-                <path d="M1018,181C1018.55,181 1019,181.448 1019,182C1019,184.577 1019,191.423 1019,194C1019,194.552 1018.55,195 1018,195C1014.59,195 1003.41,195 1000,195C999.448,195 999,194.552 999,194C999,191.423 999,184.577 999,182C999,181.448 999.448,181 1000,181C1003.41,181 1014.59,181 1018,181ZM1018,182L1000,182L1000,194L1018,194L1018,182Z" style="fill:rgb(51,51,51);"/>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.9949 4.99928C21.5449 4.99928 21.9949 5.44728 21.9949 5.99928C21.9949 8.57627 21.9949 15.4223 21.9949 17.9993C21.9949 18.5513 21.5449 18.9993 20.9949 18.9993C17.5849 18.9993 6.40487 18.9993 2.99487 18.9993C2.44287 18.9993 1.99487 18.5513 1.99487 17.9993C1.99487 15.4223 1.99487 8.57627 1.99487 5.99928C1.99487 5.44728 2.44287 4.99928 2.99487 4.99928C6.40487 4.99928 17.5849 4.99928 20.9949 4.99928ZM20.9949 5.99928H2.99487V17.9993H20.9949V5.99928Z" fill="black"/>
 </svg>
