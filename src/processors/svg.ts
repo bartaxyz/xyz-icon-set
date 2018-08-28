@@ -26,7 +26,8 @@ export default class SVGProcessor extends BaseProcessor {
 		svg.setAttribute('viewBox', '0 0 24 24');
 
 		return svg.outerHTML
-			.replace(/#(000|000000|333|333333|black)/g, primaryColor)
+			.replace(/#(000000|000|333333|333)/g, primaryColor)
+			.replace(/"black"/g, `"${primaryColor}"`)
 			.replace(/rgb\(51,51,51\)/g, primaryColor)
 			.replace(/#(666|666666)/g, gradientColorPrimary)
 			.replace(/#(fff|FFF|ffffff|FFFFFF)/g, gradientColorSecondary)

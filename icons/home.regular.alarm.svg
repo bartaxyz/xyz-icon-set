@@ -1,10 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="5.00246" height="10.0017" fill="black" fill-opacity="0" transform="translate(7.99756 6)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13 12C13 12.265 12.89 12.52 12.71 12.707C12.08 13.334 10.59 14.819 9.69997 15.707C9.30997 16.1 8.68006 16.1 8.29006 15.707C7.90006 15.316 7.90006 14.683 8.29006 14.293C9.29006 13.293 11 11.585 11 11.585C11 11.585 11 8.607 11 7C11 6.448 11.45 6 12 6C12.26 6 12.52 6.10503 12.71 6.29303C12.89 6.48003 13 6.735 13 7C13 8.431 13 11 13 12Z" fill="#333333"/>
 <rect width="16" height="16" fill="black" fill-opacity="0" transform="translate(4 4)"/>
 <path d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z" stroke="black" stroke-width="2" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="bevel"/>
 <rect width="3" height="3" fill="black" fill-opacity="0" transform="translate(3 3)"/>
 <path d="M3 6L6 3" stroke="black" stroke-width="2" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="bevel"/>
 <rect width="3" height="3" fill="black" fill-opacity="0" transform="translate(18 3)"/>
 <path d="M18 3L21 6" stroke="black" stroke-width="2" stroke-miterlimit="100" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M12.5 6.5V12L9.5 15" stroke="black" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
