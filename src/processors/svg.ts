@@ -45,15 +45,20 @@ export default class SVGProcessor extends BaseProcessor {
 	run() {
 		const iconsList: Icon[] = this.getIcons();
 
-		// { iconName: { regular: Icon, thin: Icon} }
+		const getIconComponentName = (icon: Icon) => {
+			return (
+				icon.name.charAt(0).toUpperCase() + icon.name.substr(1) + 'Icon'
+			);
+		};
 
 		const icons = iconsList.reduce((accumulator, icon) => {
-			if (!accumulator[icon.name]) {
-				accumulator[icon.name] = {
+			const iconComponentName = getIconComponentName(icon);
+			if (!accumulator[iconComponentName]) {
+				accumulator[iconComponentName] = {
 					[icon.theme]: icon,
 				};
 			} else {
-				accumulator[icon.name][icon.theme] = icon;
+				accumulator[iconComponentName][icon.theme] = icon;
 			}
 
 			return accumulator;
@@ -76,7 +81,7 @@ export default class SVGProcessor extends BaseProcessor {
 
 		const iconNames = iconsList.reduce((accumulator, icon) => {
 			if (accumulator.indexOf(icon.name) === -1) {
-				accumulator.push(icon.name);
+				accumulator.push(getIconComponentName(icon));
 			}
 
 			return accumulator;
@@ -90,11 +95,6 @@ export default class SVGProcessor extends BaseProcessor {
 			return accumulator;
 		}, []);
 
-		const getIconComponentName = (icon: Icon) => {
-			return (
-				icon.name.charAt(0).toUpperCase() + icon.name.substr(1) + 'Icon'
-			);
-		};
 		const iconComponentNames = iconsList.reduce((accumulator, icon) => {
 			const iconComponentName = getIconComponentName(icon);
 
