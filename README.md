@@ -14,4 +14,4 @@ XYZ Icon Set is licensed under the MIT License.
 
 ## Authors
 
-Ondřej Bárta - [website](https://ondrejbarta.xyz) &middot; [twitter](https://twitter.com/bartaxyz)
+Ondřej Bárta &middot; [website](https://ondrejbarta.xyz) &middot; [twitter](https://twitter.com/bartaxyz)
