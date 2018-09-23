@@ -52,9 +52,14 @@ PaperPlaneIcon.category === 'social';
 
 `options`
 
+Object describing visuals of the icon.
+
 - `fillOpacity`
 
   Opacity of the transparent fill inside of the icon. Accepts values between `0` and `1`. It is not recommended to use higher values than `0.5` as it could break the legibility and recognizability of the icon.
+
+
+
   **Default value: `0`**
 
 #### Returns
@@ -77,9 +82,14 @@ PaperPlaneIcon.toSVG({
 
 `options`
 
+Object describing visuals of the icon.
+
 - `fillOpacity`
 
   Opacity of the transparent fill inside of the icon. Accepts values between `0` and `1`. It is not recommended to use higher values than `0.5` as it could break the legibility and recognizability of the icon.
+
+
+
   **Default value: `0`**
 
 #### Returns
