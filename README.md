@@ -73,7 +73,7 @@ PaperPlaneIcon.toSVG({
 
 ## `.toDOM(options)` (browser only)
 
-#### Parameters
+#### Parameters
 
 `options`
 
