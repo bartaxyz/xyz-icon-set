@@ -35,48 +35,58 @@ const { PaperPlaneIcon } = XYZIconSet;
 ### `.name`
 
 Icon name in camel-case format.
+
 ```typescript
 PaperPlaneIcon.name === 'PaperPlane';
 ```
 
-
 ### `.category`
+
 Semantic category of the icon. Used mostly for showcase purposes.
+
 ```typescript
 PaperPlaneIcon.category === 'social';
 ```
 
-
 ### `.toSVG(options)`
+
+Returns SVG string representation of the icon.
+
 #### Parameters
 
 `options`
 
 Object describing visuals of the icon.
 
+- `theme`
+
+  Theme is either `regular` or `thin`. For icon visual reference, visit [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
+
+  **Default value: `regular`**
+
 - `fillOpacity`
 
-  Opacity of the transparent fill inside of the icon. Accepts values between `0` and `1`. It is not recommended to use higher values than `0.5` as it could break the legibility and recognizability of the icon.
+    Opacity of the transparent fill inside of the icon. Accepts values between `0` and `1`. It is not recommended to use higher values than `0.5` as it could break the legibility and recognizability of the icon.
 
-
-
-  **Default value: `0`**
+    **Default value: `0`**
 
 #### Returns
 
-SVG string of the icon.
-
+String of the icon in SVG format.
 
 #### Example
 
 ```typescript
 PaperPlaneIcon.toSVG({
-    fillOpacity: 0.25,
+    theme: 'thin',
+	fillOpacity: 0.25,
 });
 // "<svg width=\"24\" height=\"24\" view..."
 ```
 
-## `.toDOM(options)` (browser only)
+### `.toDOM(options)` (browser only)
+
+Returns DOM representation of the icon. This method is browser only, if you try to run it without browser `document` object in the global scope, it throws an error.
 
 #### Parameters
 
@@ -84,30 +94,33 @@ PaperPlaneIcon.toSVG({
 
 Object describing visuals of the icon.
 
+- `theme`
+
+  Theme is either `regular` or `thin`. For icon visual reference, visit [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
+
+  **Default value: `regular`**
+
 - `fillOpacity`
 
-  Opacity of the transparent fill inside of the icon. Accepts values between `0` and `1`. It is not recommended to use higher values than `0.5` as it could break the legibility and recognizability of the icon.
+    Opacity of the transparent fill inside of the icon. Accepts values between `0` and `1`. It is not recommended to use higher values than `0.5` as it could break the legibility and recognizability of the icon.
 
-
-
-  **Default value: `0`**
+    **Default value: `0`**
 
 #### Returns
 
-DOM representation of the icon.
+Virtual DOM object of the icon.
 
 #### Example
 
 ```typescript
 PaperPlaneIcon.toDOM({
-    fillOpacity: 0.25,
+    theme: 'thin',
+	fillOpacity: 0.25,
 });
 // <svg width="24" height="24" view...
 ```
 
-
-
-## FAQ  
+## FAQ
 
 ### Why is icon font not supported?
 
