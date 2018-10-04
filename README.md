@@ -79,7 +79,7 @@ String of the icon in SVG format.
 ```typescript
 PaperPlaneIcon.toSVG({
     theme: 'thin',
-	fillOpacity: 0.25,
+    fillOpacity: 0.25,
 });
 // "<svg width=\"24\" height=\"24\" view..."
 ```
@@ -115,7 +115,7 @@ Virtual DOM object of the icon.
 ```typescript
 PaperPlaneIcon.toDOM({
     theme: 'thin',
-	fillOpacity: 0.25,
+    fillOpacity: 0.25,
 });
 // <svg width="24" height="24" view...
 ```
