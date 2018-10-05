@@ -2,6 +2,8 @@ Browser all icons at [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set
 
 It is recommended to use implementation packages for use with [Vue](https://github.com/bartaxyz/xyz-icon-set-vue) and [React](https://github.com/bartaxyz/xyz-icon-set-react). Alternatively check out vanilla JS usage below.
 
+
+
 ## Usage
 
 ### Installation with NPM
@@ -30,21 +32,7 @@ import XYZIconSet from 'xyz-icon-set';
 const { PaperPlaneIcon } = XYZIconSet;
 ```
 
-## Static Icon API Reference
 
-> Note: This reference tries to define the specs for v1. So far it is not completely done and is subject to change.
-
-`.name` &middot; Icon name in camel-case format.
-
-```typescript
-PaperPlaneIcon.name === 'PaperPlane';
-```
-
-`.category` &middot; Semantic category of the icon. Used mostly for showcase purposes.
-
-```typescript
-PaperPlaneIcon.category === 'social';
-```
 
 ## Icon API Reference
 
@@ -55,6 +43,8 @@ To access Icon API, you need to first get an instance of icon. The reasoning beh
 ```typescript
 const paperPlaneIcon = new PaperPlaneIcon();
 ```
+
+
 
 ### Icon Class &middot; `constructor(iconOptions)`
 
@@ -76,6 +66,22 @@ new PaperPlaneIcon();
 
 new PaperPlaneIcon({ theme: 'thin' })
 // Returns `thin` PaperPlaneIcon instance
+```
+
+
+
+### Instance Properties
+
+`.name` &middot; Icon name in camel-case format.
+
+```typescript
+PaperPlaneIcon.name === 'PaperPlane';
+```
+
+`.category` &middot; Semantic category of the icon. Used mostly for showcase purposes.
+
+```typescript
+PaperPlaneIcon.category === 'social';
 ```
 
 
@@ -110,6 +116,8 @@ paperPlaneIcon.toString({
 });
 // "<svg width=\"24\" height=\"24\" view..."
 ```
+
+
 
 ### `.toDocumentFragment(options)` (browser only)
 
@@ -151,13 +159,19 @@ paperPlaneIcon.toDOM({
 
 Generally text rendering is different to graphics rendering. There are many issues with icon fonts caused by the technology misuse. Eg. It could cause that the experience will be broken when certain accesibility options are on in the web browser.
 
+
+
 ## Contributing
 
 There's public [Figma project](https://www.figma.com/file/aL6uKzwVzrTG3sTE2pbN4gOb/XYZ-Icon-Set) which contains always the most recent changes. If you don't find the icon you were looking for, please search through [issues](https://github.com/bartaxyz/xyz-icon-set/issues) or [file a new one](https://github.com/bartaxyz/xyz-icon-set/issues/new). There are no plans on allowing direct contributions to icon files.
 
+
+
 ## License
 
 XYZ Icon Set is licensed under the MIT License.
+
+
 
 ## Authors
 
