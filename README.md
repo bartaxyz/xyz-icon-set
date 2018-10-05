@@ -75,13 +75,13 @@ new PaperPlaneIcon({ theme: 'thin' })
 `.name` &middot; Icon name in camel-case format.
 
 ```typescript
-PaperPlaneIcon.name === 'PaperPlane';
+paperPlaneIcon.name === 'PaperPlane';
 ```
 
 `.category` &middot; Semantic category of the icon. Used mostly for showcase purposes.
 
 ```typescript
-PaperPlaneIcon.category === 'social';
+paperPlaneIcon.category === 'social';
 ```
 
 
