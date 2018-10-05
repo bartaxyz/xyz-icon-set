@@ -1,6 +1,6 @@
 {
 	"name": "xyz-icon-set",
-	"version": "0.23.0",
+	"version": "0.24.0",
 	"description": "",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
@@ -9,7 +9,7 @@
 		"build": "npm run clean && npm run build:source && node ./dist/build.js && npm run build:output",
 		"build:output": "tsc dist/index.ts -d --outDir dist/",
 		"build:source": "tsc src/build.ts -d --outDir dist/ && npm run build:utils",
-		"build:utils": "tsc src/utils/getIcon.ts -d --outDir dist/utils/",
+		"build:utils": "tsc src/utils/Icon.ts -d --outDir dist/utils/",
 		"lint": "eslint src tests",
 		"lint:fix": "npm run lint -- --fix",
 		"test": "mocha -r ts-node/register src/**/__test__/**/*.ts",
