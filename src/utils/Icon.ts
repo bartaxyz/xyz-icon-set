@@ -56,7 +56,7 @@ export class Icon {
 			return this.toSVGElement(iconOptions);
 		}
 
-		const { fillOpacity } = iconOptions;
+		const fillOpacity = iconOptions || 0;
 		const backgroundElements = this.iconSVGElement.querySelectorAll(
 			'[fill-opacity]',
 		);

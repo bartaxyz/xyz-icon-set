@@ -1,3 +1,5 @@
+# XYZ Icon Set 
+
 Browser all icons at [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
 
 It is recommended to use implementation packages for use with [Vue](https://github.com/bartaxyz/xyz-icon-set-vue) and [React](https://github.com/bartaxyz/xyz-icon-set-react). Alternatively check out vanilla JS usage below.
