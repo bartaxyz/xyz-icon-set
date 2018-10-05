@@ -1,6 +1,6 @@
 Browser all icons at [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
 
-It is recommended to use implementation packages for use with [Vue](https://github.com/bartaxyz/xyz-icon-set-vue) and [React](https://github.com/bartaxyz/xyz-icon-set-react). Alternatively check out project [wiki](https://github.com/bartaxyz/xyz-icon-set/wiki) for usage with vanilla JS.
+It is recommended to use implementation packages for use with [Vue](https://github.com/bartaxyz/xyz-icon-set-vue) and [React](https://github.com/bartaxyz/xyz-icon-set-react). Alternatively check out vanilla JS usage below.
 
 ## Usage
 
@@ -10,9 +10,7 @@ It is recommended to use implementation packages for use with [Vue](https://gith
 npm install xyz-icon-set
 ```
 
-### Icon API Reference
-
-> Note: This reference tries to define the specs for v1. So far it is not completely done and is subject to change.
+### Importing icon from a package
 
 > Note: Examples are shown with ES6 syntax
 
@@ -32,23 +30,57 @@ import XYZIconSet from 'xyz-icon-set';
 const { PaperPlaneIcon } = XYZIconSet;
 ```
 
-### `.name`
+## Static Icon API Reference
 
-Icon name in camel-case format.
+> Note: This reference tries to define the specs for v1. So far it is not completely done and is subject to change.
+
+`.name` &middot; Icon name in camel-case format.
 
 ```typescript
 PaperPlaneIcon.name === 'PaperPlane';
 ```
 
-### `.category`
-
-Semantic category of the icon. Used mostly for showcase purposes.
+`.category` &middot; Semantic category of the icon. Used mostly for showcase purposes.
 
 ```typescript
 PaperPlaneIcon.category === 'social';
 ```
 
-### `.toSVG(options)`
+## Icon API Reference
+
+> Note: This reference tries to define the specs for v1. So far it is not completely done and is subject to change.
+
+To access Icon API, you need to first get an instance of icon. The reasoning behind using classes is the usage of read-only properties passed to the constructor (such as `theme`). Other properties are reactive and pass
+
+```typescript
+const paperPlaneIcon = new PaperPlaneIcon();
+```
+
+### Icon Class &middot; `constructor(iconOptions)`
+
+#### Parameters
+
+`iconOptions`
+
+- `theme`
+
+  Either `regular` or `thin`. For icon visual reference, visit [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
+
+  **Default value: `regular`**
+
+#### Example
+
+```typescript
+new PaperPlaneIcon();
+// Returns `regular` PaperPlaneIcon instance
+
+new PaperPlaneIcon({ theme: 'thin' })
+// Returns `thin` PaperPlaneIcon instance
+```
+
+
+
+### `.toString(options)`
 
 Returns SVG string representation of the icon.
 
@@ -57,12 +89,6 @@ Returns SVG string representation of the icon.
 `options`
 
 Object describing visuals of the icon.
-
-- `theme`
-
-  Theme is either `regular` or `thin`. For icon visual reference, visit [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
-
-  **Default value: `regular`**
 
 - `fillOpacity`
 
@@ -77,14 +103,15 @@ String of the icon in SVG format.
 #### Example
 
 ```typescript
-PaperPlaneIcon.toSVG({
-    theme: 'thin',
+const paperPlaneIcon = new PaperPlaneIcon();
+
+paperPlaneIcon.toString({
     fillOpacity: 0.25,
 });
 // "<svg width=\"24\" height=\"24\" view..."
 ```
 
-### `.toDOM(options)` (browser only)
+### `.toDocumentFragment(options)` (browser only)
 
 Returns DOM representation of the icon. This method is browser only, if you try to run it without browser `document` object in the global scope, it throws an error.
 
@@ -93,12 +120,6 @@ Returns DOM representation of the icon. This method is browser only, if you try 
 `options`
 
 Object describing visuals of the icon.
-
-- `theme`
-
-  Theme is either `regular` or `thin`. For icon visual reference, visit [XYZ Icon Set Website](https://ondrejbarta.xyz/xyz-icon-set).
-
-  **Default value: `regular`**
 
 - `fillOpacity`
 
@@ -113,12 +134,16 @@ Virtual DOM object of the icon.
 #### Example
 
 ```typescript
-PaperPlaneIcon.toDOM({
-    theme: 'thin',
+const paperPlaneIcon = new PaperPlaneIcon();
+
+paperPlaneIcon.toDOM({
     fillOpacity: 0.25,
 });
-// <svg width="24" height="24" view...
+// #document-fragment
+//    <svg width="24" height="24" view...
 ```
+
+
 
 ## FAQ
 
