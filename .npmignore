@@ -3,9 +3,22 @@
 node_modules
 .babelrc
 .eslintrc
+.editorconfig
 .gitattributes
 .gitignore
 tsconfig.json
 *.afdesign
 /src
 /icons
+/dist/processors
+/dist/build.*
+/tests
+
+# ignore the .ts files
+*.ts
+
+# include the .d.ts files
+!*.d.ts
+
+# ignore icon declaration files
+/dist/icons/*.d.ts

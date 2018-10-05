@@ -1,6 +1,6 @@
 {
 	"name": "xyz-icon-set",
-	"version": "0.25.0",
+	"version": "0.28.0",
 	"description": "",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",

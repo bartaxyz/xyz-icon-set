@@ -9,14 +9,15 @@ import { Icon } from './utils/Icon';
  *  Meta Data - Types
  */
 
+export interface IconComponents { {{#iconComponentNames}}
+	{{this}}: any;{{/iconComponentNames}}
+}
+
 export type IconCategory ={{#iconCategories}}
 	| '{{this}}'{{/iconCategories}};
 
-export type IconName ={{#iconNames}}
-	| '{{this}}'{{/iconNames}};
-
-export type IconComponentName ={{#iconComponentNames}}
-	| '{{this}}'{{/iconComponentNames}};
+export type IconName = keyof IconComponents;
+export type IconComponentName = IconName;
 
 
 /*
@@ -35,11 +36,6 @@ export const iconComponentNames: IconComponentName[] = [{{#iconComponentNames}}
 	'{{this}}',{{/iconComponentNames}}
 ];
 
-
-export interface IconComponents { {{#iconComponentNames}}
-	{{this}}: any;{{/iconComponentNames}}
-}
-
 /*
  *  Icon Classes Export
  */
@@ -47,8 +43,7 @@ export interface IconComponents { {{#iconComponentNames}}
 
 {{#each icons}}
 export class {{@key}} extends Icon {
-	name = '{{@key}}';
-	category = '{{#regular}}{{category}}{{/regular}}';
+	static category = '{{#regular}}{{category}}{{/regular}}';
 	source = {
 		regular: {{#regular}}{{name}}_{{theme}}{{/regular}}.source,
 		thin: {{#thin}}{{name}}_{{theme}}{{/thin}}.source,

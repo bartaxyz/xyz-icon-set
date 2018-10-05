@@ -1,12 +1,5 @@
 export type IconTheme = 'regular' | 'thin';
 
-export interface GetIconInput {
-	source: string;
-	category: string;
-	theme: IconTheme;
-	name: string;
-}
-
 export interface IconOptions {
 	fillOpacity?: number;
 }
@@ -16,12 +9,14 @@ export interface IconContstructorOptions {
 }
 
 export class Icon {
-	name: string;
-	category: string;
+	static category: string;
 	theme: IconTheme;
 	source: {
 		[key: string]: string;
 	};
+
+	iconOptions: IconOptions;
+	iconSVGElement: SVGElement;
 
 	constructor({ theme }: IconContstructorOptions = {}) {
 		this.theme = theme || 'regular';
@@ -34,15 +29,47 @@ export class Icon {
 		);
 	}
 
-	toDocumentFragment({ fillOpacity }: IconOptions = {}): DocumentFragment {
-		if (!document) {
-			throw new Error(
-				'Document object is not in your global scope. This method can be executed in browser only.',
+	toSVGElement(iconOptions: IconOptions = {}): SVGElement {
+		if (!this.iconSVGElement) {
+			let documentFragmentIcon: DocumentFragment;
+
+			try {
+				documentFragmentIcon = document
+					.createRange()
+					.createContextualFragment(this.source[this.theme]);
+			} catch (e) {
+				throw new Error(
+					'Document object is not in your global scope. This method can be executed in browser only.',
+				);
+			}
+
+			this.iconSVGElement = documentFragmentIcon.querySelector('svg');
+		}
+
+		this.setIconOptions(iconOptions);
+
+		return this.iconSVGElement;
+	}
+
+	setIconOptions(iconOptions: IconOptions = {}): SVGElement {
+		if (!this.iconSVGElement) {
+			return this.toSVGElement(iconOptions);
+		}
+
+		const { fillOpacity } = iconOptions;
+		const backgroundElements = this.iconSVGElement.querySelectorAll(
+			'[fill-opacity]',
+		);
+
+		this.iconOptions = iconOptions;
+
+		for (let i = 0; i < backgroundElements.length; ++i) {
+			backgroundElements[i].setAttribute(
+				'fill-opacity',
+				`${fillOpacity}`,
 			);
 		}
 
-		return document
-			.createRange()
-			.createContextualFragment(this.source[this.theme]);
+		return this.iconSVGElement;
 	}
 }
