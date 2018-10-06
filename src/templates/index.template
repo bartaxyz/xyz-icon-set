@@ -5,6 +5,8 @@ import {{name}}_{{theme}} from './icons/{{{category}}}.{{{theme}}}.{{{name}}}';
 
 import { Icon } from './utils/Icon';
 
+export { Icon, IconTheme, IconOptions, IconContstructorOptions } from './utils/Icon';
+
 /*
  *  Meta Data - Types
  */
