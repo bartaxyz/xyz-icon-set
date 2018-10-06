@@ -15,7 +15,7 @@ export class Icon {
 		[key: string]: string;
 	};
 
-	iconOptions: IconOptions;
+	iconOptions: IconOptions = {};
 	iconSVGElement: SVGElement;
 
 	constructor({ theme }: IconContstructorOptions = {}) {
