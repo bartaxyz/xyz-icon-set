@@ -29,7 +29,7 @@ export class Icon {
 		);
 	}
 
-	toSVGElement(iconOptions: IconOptions = {}): SVGElement {
+	toSVGElement(iconOptions?: IconOptions): SVGElement {
 		if (!this.iconSVGElement) {
 			let documentFragmentIcon: DocumentFragment;
 
@@ -51,24 +51,29 @@ export class Icon {
 		return this.iconSVGElement;
 	}
 
-	setIconOptions(iconOptions: IconOptions = {}): SVGElement {
-		if (!this.iconSVGElement) {
-			return this.toSVGElement(iconOptions);
-		}
+	updateFillOpacity(newFillOpacity?: IconOptions['fillOpacity']) {
+		if (!newFillOpacity) return;
+		if (this.iconOptions.fillOpacity === newFillOpacity) return;
 
-		const fillOpacity = iconOptions.fillOpacity || 0;
+		this.iconOptions.fillOpacity = newFillOpacity;
+
 		const backgroundElements = this.iconSVGElement.querySelectorAll(
 			'[fill-opacity]',
 		);
 
-		this.iconOptions = iconOptions;
-
 		for (let i = 0; i < backgroundElements.length; ++i) {
 			backgroundElements[i].setAttribute(
 				'fill-opacity',
-				`${fillOpacity}`,
+				`${this.iconOptions.fillOpacity}`,
 			);
 		}
+	}
+
+	setIconOptions(iconOptions?: IconOptions): SVGElement {
+		if (!this.iconSVGElement) return this.toSVGElement(iconOptions);
+		if (!iconOptions) return this.iconSVGElement;
+
+		this.updateFillOpacity(iconOptions.fillOpacity);
 
 		return this.iconSVGElement;
 	}
