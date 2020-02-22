@@ -1,6 +1,6 @@
 {
 	"name": "xyz-icon-set",
-	"version": "0.41.1",
+	"version": "0.41.2",
 	"description": "",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
@@ -14,7 +14,7 @@
 		"lint:fix": "npm run lint -- --fix",
 		"test": "mocha -r ts-node/register src/**/__test__/**/*.ts",
 		"test:dev": "npm run test -- --watch",
-		"prepublish": "npm test && npm run build"
+		"prepare": "npm test && npm run build"
 	},
 	"repository": {
 		"type": "git",
@@ -40,7 +40,6 @@
 		"@babel/preset-env": "^7.0.0-beta.32",
 		"@babel/preset-typescript": "^7.0.0-beta.32",
 		"@types/chai": "^4.1.4",
-		"@types/handlebars": "^4.0.37",
 		"@types/jasmine": "^2.8.8",
 		"@types/jsdom": "^11.0.4",
 		"@types/node": "^10.5.8",
@@ -48,7 +47,7 @@
 		"eslint": "^4.19.1",
 		"eslint-config-airbnb": "^16.1.0",
 		"eslint-plugin-import": "^2.11.0",
-		"handlebars": "^4.1.2",
+		"handlebars": "^4.5.3",
 		"jasmine": "^3.2.0",
 		"jsdom": "^11.10.0",
 		"mocha": "^5.2.0",
@@ -56,7 +55,6 @@
 		"ts-node": "^7.0.1",
 		"tslint": "^5.11.0",
 		"tslint-config-airbnb": "^5.9.2",
-		"typescript": "^2.9.2",
-		"typings": "^2.1.1"
+		"typescript": "^3.7.2"
 	}
 }

@@ -11,8 +11,8 @@ export { Icon, IconTheme, IconOptions, IconContstructorOptions } from './utils/I
  *  Meta Data - Types
  */
 
-export interface IconComponents { {{#iconComponentNames}}
-	{{this}}: any;{{/iconComponentNames}}
+export interface IconComponents<T = any> { {{#iconComponentNames}}
+	{{this}}: T;{{/iconComponentNames}}
 }
 
 export type IconCategory ={{#iconCategories}}
