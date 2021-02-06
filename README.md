@@ -56,7 +56,7 @@ const paperPlaneIcon = new PaperPlaneIcon();
 
 - `theme`
 
-  Either `regular` or `thin`. For icon visual reference, visit [XYZ Icon Set Website](https://ondrejbarta.xyz/pet-projects/xyz-icon-set).
+  Either `regular` or `thin`.
 
   **Default value: `regular`**
 
